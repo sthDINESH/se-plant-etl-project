@@ -27,6 +27,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/1_abies_alba/medium/1536px-Abies_alba_SkalitC3A9.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e44970777789e361256e2b5656a6d5a797bef798a959f923c392efaa7c8bed7d",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/1_abies_alba/small/1536px-Abies_alba_SkalitC3A9.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=5e4785449bd2903cd54f0a890d1afec46f44deef9b79365b47d30914e9696956",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/1_abies_alba/thumbnail/1536px-Abies_alba_SkalitC3A9.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=4998287e6da3919c3a17f5b29182812c870f6dac5be8a2f47ece48be5d61f099"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7f7ed41488b38ad83a9"
   }
 },
 {
@@ -56,6 +59,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/2_abies_alba_pyramidalis/medium/49255769768_df55596553_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=523095e66ff83b3065d6121acb7a88b2fd3d994d6f647d737e315ac42642394e",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/2_abies_alba_pyramidalis/small/49255769768_df55596553_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=66c8db208fab20b18e29b4a8214dc74980baff75d67d5f41d92fa47abf1fdd0e",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/2_abies_alba_pyramidalis/thumbnail/49255769768_df55596553_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=98cab24dd71b1bc92f27b2d873916750528f6937dc8c06beff9eb22d6798cbb3"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7f7ed41488b38ad83aa"
   }
 },
 {
@@ -89,6 +95,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/3_abies_concolor/medium/52292935430_f4f3b22614_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=0e86290896f03a92282bb8dca311dacea13301dd4526a0a818124708a9607354",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/3_abies_concolor/small/52292935430_f4f3b22614_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1846d74dfd445ee31ed7e38546f6194cd173cfd7873112c5464e8220266d2dd4",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/3_abies_concolor/thumbnail/52292935430_f4f3b22614_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=c928bce05a89e26499594283ac0a27236fffcea3fab849d8ac8a6b187d810a68"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7f8ed41488b38ad83ab"
   }
 },
 {
@@ -122,6 +131,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/4_abies_concolor_candicans/medium/49283844888_332c9e46f2_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=32bfbb54b9daede456829f4c09d79dd8d3b1d0ec9e1bfec4ac3b8fc46c4427d4",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/4_abies_concolor_candicans/small/49283844888_332c9e46f2_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a5f3542aeff88ca9f136bd86146c835c4cc93da8c84e31d673c92bb2ce2a1d1e",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/4_abies_concolor_candicans/thumbnail/49283844888_332c9e46f2_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=11378aecaaec54d8096fae1d4b6774c08fcca347cca4c0732a3d85fbe2c15c96"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7f8ed41488b38ad83ac"
   }
 },
 {
@@ -153,6 +165,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/5_abies_fraseri/medium/36843539702_e80fc436e0_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=3417e0360f9b5073545ba988173fd579be4661e57df5a0d84958ab46393e5557",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/5_abies_fraseri/small/36843539702_e80fc436e0_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=582e5624fad644b8b7174e9a8101b20f3a6399c9043bb346496da68f5988810c",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/5_abies_fraseri/thumbnail/36843539702_e80fc436e0_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ecefc9be77bde90aa1f57b5c72dbfff57ecec1ed0216839b0183dcd12d89b5d0"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7f9ed41488b38ad83ad"
   }
 },
 {
@@ -182,6 +197,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/6_abies_koreana_aurea/medium/49235570926_99ec10781d_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=90702ba94fab47d57c80c5adbfc4b3e7134163f825d6d6b6b0094a249bcbefd4",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/6_abies_koreana_aurea/small/49235570926_99ec10781d_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f8b1a2e01fb39eac5a3edff4d904796095ba4f347df40d0d85da4086d217386e",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/6_abies_koreana_aurea/thumbnail/49235570926_99ec10781d_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f488f105dcd6500755d1cad8efa8468677da4790b79237bee672d9f6b769301c"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7faed41488b38ad83ae"
   }
 },
 {
@@ -214,6 +232,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/7_abies_lasiocarpa/medium/51002756843_74fae3c2fa_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2d8a634df26cd79961b0911b374dfff2c04352e98718bb750f4306a7582c6250",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/7_abies_lasiocarpa/small/51002756843_74fae3c2fa_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f79a224146badc9c9ec8c1e89f2bb1b3ea508edcab10a6c79b20db6030dfef9d",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/7_abies_lasiocarpa/thumbnail/51002756843_74fae3c2fa_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=cfb6bb886beee43abb22434318818bf255d58e3d012b4cbd35e42be0fd3cad79"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7faed41488b38ad83af"
   }
 },
 {
@@ -245,6 +266,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/8_abies_pinsapo_glauca/medium/21657514018_c0d9fed9f4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=4e54286d5eaa2cd6481601e47b247bc3345c7573717095602c19e0c4c40583a5",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/8_abies_pinsapo_glauca/small/21657514018_c0d9fed9f4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e3daf825f5121d2eb8f12b4c33d892145533705a97cfcc88ae2b9f985b76b53d",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/8_abies_pinsapo_glauca/thumbnail/21657514018_c0d9fed9f4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=9a549f11e64e734a74068e73d96eac0199c096abe97fd0b3c2eb56ecd0baf6e0"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7fbed41488b38ad83b0"
   }
 },
 {
@@ -277,6 +301,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/9_abies_procera/medium/49107504112_6bd7effb8b_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1a3d2c33506b4b0a663ebdf096b9be4708d4d3ea4833fa06460f12a81f444ea3",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/9_abies_procera/small/49107504112_6bd7effb8b_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e0104fa8ada0461362016a0641613bfb18601d1001ef2c7f074e545b77538879",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/9_abies_procera/thumbnail/49107504112_6bd7effb8b_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a0004659892e53ca5eda6b2f2b2ad5a744ebdaea29636a088a6f30c1d2168da8"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7fced41488b38ad83b1"
   }
 },
 {
@@ -308,6 +335,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/10_acer_johin/medium/pexels-photo-2183508.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=511d6b7a9d182a7c96a5b218c57f1dd50aa787c593486a216623d847fd68637c",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/10_acer_johin/small/pexels-photo-2183508.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e0120e2372b8a822e92b15b59c827d2fce2f630552cd43a7089370612464cfda",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/10_acer_johin/thumbnail/pexels-photo-2183508.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e53cac0de8f818cfa769bad3f58b07c34cd2bbd2b7aba0dfa14cdc8b56484f1a"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7fced41488b38ad83b2"
   }
 },
 {
@@ -340,6 +370,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/11_acer_davidii/medium/6868591754_f4ac5b0510_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=94d837da564ad4a29824ffbf7379bc48e4132f3c7efda704496445706f9199d0",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/11_acer_davidii/small/6868591754_f4ac5b0510_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=7b60a78781dad2377c367c775e7c17a337350c8b5ed3ca1a366cedb60edb861a",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/11_acer_davidii/thumbnail/6868591754_f4ac5b0510_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=8eb292600a02d55fb84d101b46b7ccf0331c77ea09edfd0530ac86dc6eeefd50"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7fded41488b38ad83b3"
   }
 },
 {
@@ -369,6 +402,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/12_acer_ginnala/medium/10476032513_76ca899bc4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ac770acf394e97e1f4b5fe74b0e815a0e2ba61ff53446ed0201bad7dd0de9501",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/12_acer_ginnala/small/10476032513_76ca899bc4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=7cab1b2f37be82b19e263634be1bda29f0746f19ae15cb559f78385e62e9d067",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/12_acer_ginnala/thumbnail/10476032513_76ca899bc4_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=094641dad380eb85b1bfb0546ba1938b0dd1285c2adde977f97a71c51286eb44"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7feed41488b38ad83b4"
   }
 },
 {
@@ -398,6 +434,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/13_acer_ginnala_flame/medium/pexels-photo-1649190.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=6436688d77ffa3b94f3d0380b7465423396c63077ee8564f2e6a021ef16de754",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/13_acer_ginnala_flame/small/pexels-photo-1649190.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=51ef5d8a1bc28333bd18ad20aed5b45601f92d7bf6f8eb9078a8255c5bf70946",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/13_acer_ginnala_flame/thumbnail/pexels-photo-1649190.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a5a67ef7cf21e70b7a9934d17dd68310003a90d28514a3718574eaabdeb018a2"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7feed41488b38ad83b5"
   }
 },
 {
@@ -427,6 +466,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/14_acer_ginnala_mondy/medium/pexels-photo-1789879.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=10c28e49b5b084792fe789310bd1d6f101231da29c98a2bc8d7a939a84f80b42",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/14_acer_ginnala_mondy/small/pexels-photo-1789879.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=fa0acec63b9c2a076a728d61ec1d3d9c8ecb79d242ca8fd2708556e769e45dc1",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/14_acer_ginnala_mondy/thumbnail/pexels-photo-1789879.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=31a0a7eabe25063d265f4c4cae6b856dbbdc1b5d280099271f609188c2138dd8"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed7ffed41488b38ad83b6"
   }
 },
 {
@@ -456,6 +498,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/15_acer_ginnala_ruby_slippers/medium/pexels-photo-1640820.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=0a2f34fd4f1c1780ae40d4b0dd5231e1e67592c3c079849b9530323221d219ae",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/15_acer_ginnala_ruby_slippers/small/pexels-photo-1640820.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=aa7c158cc32c6b764daf2f880f350bb42a8f7b1a339c2ace90bb9b0382a6d919",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/15_acer_ginnala_ruby_slippers/thumbnail/pexels-photo-1640820.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=637cc57132257f33ad4dcd495bfd6afc50567abd92509e8ef6994ecf056e98ab"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed800ed41488b38ad83b7"
   }
 },
 {
@@ -485,6 +530,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/16_acer_griseum/medium/5158906371_ed08a86876_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1dc02c897032461998b94cad4ac64a857eeb50aaedcc8238edd607823a1516e6",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/16_acer_griseum/small/5158906371_ed08a86876_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=bea5f13dff7b45a136af54f9f16191e67fd254406fbfe813f1d5b177be55a624",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/16_acer_griseum/thumbnail/5158906371_ed08a86876_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e40c3cde4b58e43f622351b7e5de2bffbfafde8bf2a972b24872eb75f193b44a"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed800ed41488b38ad83b8"
   }
 },
 {
@@ -514,6 +562,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/17_acer_japonicum/medium/7175475239_52543c51b3_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d35e8870d8ae3cf7cdd1ce078a2001ffc63a97e9d7b29ff3e79aeade80de7757",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/17_acer_japonicum/small/7175475239_52543c51b3_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=3edaae93643ed33b55749a1837bde398874e06c06c897acbe781a9c097e73073",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/17_acer_japonicum/thumbnail/7175475239_52543c51b3_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=beed864cd10f61ac13663bda50e2fb917a8b2028b3a7a577a18c0042e0acdebb"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed801ed41488b38ad83b9"
   }
 },
 {
@@ -545,6 +596,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/18_acer_japonicum_aconitifolium/medium/23528789198_c419363323_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f98b795c21199980a3f785af03fa2a9e4a6a75398087bafeb97b643da1536a0f",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/18_acer_japonicum_aconitifolium/small/23528789198_c419363323_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=777d777a79c50bc369f57e98c9a6d079f19a64cee428066dcc77f865fbc26011",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/18_acer_japonicum_aconitifolium/thumbnail/23528789198_c419363323_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2c4527308e78792d20ab5f65a897e544c26ecf07cd56c305b24d0f1dab3b8596"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed802ed41488b38ad83ba"
   }
 },
 {
@@ -574,6 +628,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/19_acer_japonicum_attaryi/medium/pexels-photo-669323.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f6f0af85cdd44cae845abf20b0dc23e904099c2218f81c7790cc1a8913779012",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/19_acer_japonicum_attaryi/small/pexels-photo-669323.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=6752b8730bd006fcd704fc468633e93d1eddcdf2d08c31542dc7c5c39743f03a",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/19_acer_japonicum_attaryi/thumbnail/pexels-photo-669323.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e2a03cd8941cd524c39429248ffda6960ecdfd253582faf49e35f60862937eb3"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed802ed41488b38ad83bb"
   }
 },
 {
@@ -603,6 +660,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/20_acer_japonicum_aureum/medium/2560px-Acer_shirasawanum_27Aureum27.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=6f03920d85f7d40b869771c01358aa7875d8b2118c3085d4408ffcd3d128908d",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/20_acer_japonicum_aureum/small/2560px-Acer_shirasawanum_27Aureum27.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=f59f5ee7674f256512ab2e4bf51a0ca81e2383ab205be86d887e910d1ea820ca",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/20_acer_japonicum_aureum/thumbnail/2560px-Acer_shirasawanum_27Aureum27.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=6d551dca2635d6b0c679788a8cbe68faf16e8146576fe90b067d51f591a9e005"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed803ed41488b38ad83bc"
   }
 },
 {
@@ -632,6 +692,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/21_acer_japonicum_emmetts_pumpkin/medium/Acer_shirasawanum_28golden_fullmoon_maple29_2_284633285838129.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=38b791d964c707823a990afe2a7e021baec29eee4180d0a807b700491493186d",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/21_acer_japonicum_emmetts_pumpkin/small/Acer_shirasawanum_28golden_fullmoon_maple29_2_284633285838129.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ba3d6f61bd8759b2739865977f810960dc71ae22bb95d3db9e5c0e22eea96f4f",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/21_acer_japonicum_emmetts_pumpkin/thumbnail/Acer_shirasawanum_28golden_fullmoon_maple29_2_284633285838129.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a12c1861aaff0406e9695f5549ab29f1564ce42b9436ee116cdb413e3686b72c"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed803ed41488b38ad83bd"
   }
 },
 {
@@ -661,6 +724,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/22_acer_japonicum_green_cascade/medium/4847225395_2509ee2bfe_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ff156fc18320e2cbb29ce2484f6a8e6db00d1ef95a783778a78806e41f47db23",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/22_acer_japonicum_green_cascade/small/4847225395_2509ee2bfe_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=2086a9b7a97dc5026b5e09029481fffdf78c94f07b8b7e4077dbcf122eff1136",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/22_acer_japonicum_green_cascade/thumbnail/4847225395_2509ee2bfe_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=1c6b6c224772697fbb8e9fc881b8c360f779c46de2fe0135993654e2e809da13"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed804ed41488b38ad83be"
   }
 },
 {
@@ -692,6 +758,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/23_acer_macrophyllum/medium/52135137216_8a124b5188_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d0e44c0d8e6b37ac3ccd92ad5e99fafaf592d2c3c78e8df9d502cf22d38bbc75",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/23_acer_macrophyllum/small/52135137216_8a124b5188_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d91e40df7ba51cb5d6e360a6c1796fd0d79b57e5aed48f14f854e444018276c0",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/23_acer_macrophyllum/thumbnail/52135137216_8a124b5188_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=ade41b08621a17af8e58ac5fa3191f52a81d7a9a5090694ba66cba4cb6e88f9e"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed805ed41488b38ad83bf"
   }
 },
 {
@@ -723,6 +792,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/24_acer_macrophyllum_mocha_rose/medium/4715169892_220a9d39f6_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=50280c7733ee3e2e9290fbad26c53d818eb5668ce1f1599b30634c194e5b4e06",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/24_acer_macrophyllum_mocha_rose/small/4715169892_220a9d39f6_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=9a8743daac6197b6938eb4f712a4f477bd1bdbdfb5ea82d2f85a0ded32f32c91",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/24_acer_macrophyllum_mocha_rose/thumbnail/4715169892_220a9d39f6_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=98557250b9cd439244358e3b5f3abbeb46c7735ad100dc4089ad027558f1a3eb"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed806ed41488b38ad83c0"
   }
 },
 {
@@ -755,6 +827,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/25_acer_negundo_flamingo/medium/5867345385_a9dff5bee7_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=8c204c0883f82b53e2ad10b0d2e8927c5390af3cf2d883c90f8f487d03ac189c",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/25_acer_negundo_flamingo/small/5867345385_a9dff5bee7_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=d95518b4e7a9185d34de3680f224261668d6577f4bed7cecb839f36b5e9b6b67",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/25_acer_negundo_flamingo/thumbnail/5867345385_a9dff5bee7_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=3cfd59fbdd1abc91b9f2b774e7ccc992eb1ae4e628d617218b9807fcca3d7caf"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed806ed41488b38ad83c1"
   }
 },
 {
@@ -787,6 +862,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/26_acer_negundo_kellys_gold/medium/28819730054_e2a2b797c9_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=df88c643586bc9d7e29db2f6b9bdf4da80933b27c3d3f0d137045706c5755d12",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/26_acer_negundo_kellys_gold/small/28819730054_e2a2b797c9_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=0813b5f8f9fe3a8b27cb36ce647f823d7aac45e167d28d85a993848cb8c0d398",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/26_acer_negundo_kellys_gold/thumbnail/28819730054_e2a2b797c9_b.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=4dd1115409329c036a42ce5d65ec7efd2dfb6f26a0aa8fa3e30d70b4da2d1c18"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed807ed41488b38ad83c2"
   }
 },
 {
@@ -816,6 +894,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/27_acer_palmatum/medium/2560px-Acer_palmatum_27Bloodgood27_kz01.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=c1d8763f4b818f14f0120139f689ce070ddd4ddc5fceda9472e32541daa16763",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/27_acer_palmatum/small/2560px-Acer_palmatum_27Bloodgood27_kz01.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=e34f69d68e6530286de5941b653e4d9902be709b46ae0ed7560cc57eba343181",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/27_acer_palmatum/thumbnail/2560px-Acer_palmatum_27Bloodgood27_kz01.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=b03eb003141525e253c86183bf5eff90593005b4340c81706595bdd6a1226ba7"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed808ed41488b38ad83c3"
   }
 },
 {
@@ -847,6 +928,9 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/28_acer_palmatum_aka_shigitatsu_sawa/medium/Acer_palmatum_Aka_shigitatsu_sawa_2zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=05bfb56b0f112a5f26c75aaee0bd6affdab4e54362d6979d822f7d0d2c974840",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/28_acer_palmatum_aka_shigitatsu_sawa/small/Acer_palmatum_Aka_shigitatsu_sawa_2zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=4cc84d600b35fb2fd79c7a04ea5340b20cbb14182ccfc127b0e7f881517ad7cd",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/28_acer_palmatum_aka_shigitatsu_sawa/thumbnail/Acer_palmatum_Aka_shigitatsu_sawa_2zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=9805a91df27163f9a1d6afa65edfe2cc98bf3748a67ba732edd1c598eaf3e46d"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed808ed41488b38ad83c4"
   }
 },
 {
@@ -867,7 +951,10 @@
   "variety": null,
   "species_epithet": "palmatum",
   "genus": "Acer",
-  "default_image": null
+  "default_image": null,
+  "species_detail_id": {
+    "$oid": "6a9ed809ed41488b38ad83c5"
+  }
 },
 {
   "_id": {
@@ -896,5 +983,8 @@
     "medium_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/30_acer_palmatum_ao_shime_no_uchi/medium/Acer_palmatum_Ao_shime_no_uchi_3zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=79942c05423d3d2f073e8c4eb8150c73c710648c3d50f00dae98e716130b30e6",
     "small_url": "https://s3.us-central-1.wasabisys.com/perenual/species_image/30_acer_palmatum_ao_shime_no_uchi/small/Acer_palmatum_Ao_shime_no_uchi_3zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=273c1aac95ea9322424f4e0eb12c52ccd092809f084f7cb6250b78294036ce61",
     "thumbnail": "https://s3.us-central-1.wasabisys.com/perenual/species_image/30_acer_palmatum_ao_shime_no_uchi/thumbnail/Acer_palmatum_Ao_shime_no_uchi_3zz.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0MPGHU7CIPXNPMVWMXUW%2F20260907%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260907T142226Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=93fa1771afd666c0e07434c9ee07231aaa54c5d1ddc95c5d3873ec431459048c"
+  },
+  "species_detail_id": {
+    "$oid": "6a9ed80aed41488b38ad83c6"
   }
 }]
