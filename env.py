@@ -11,3 +11,10 @@ MONGODB_URI = 'mongodb://localhost:27017/'
 PERENUAL_ENDPOINT = 'https://perenual.com/api/v2/'
 SPECIES_API = PERENUAL_ENDPOINT + 'species-list'
 SPECIES_DETAIL_API = PERENUAL_ENDPOINT + 'species/details/'
+
+# Configuration to selectively enable different ETL stages
+CONFIG = {
+    'EXTRACT': True,
+    'TRANSFORM': True,
+    'LOAD': True,
+}
