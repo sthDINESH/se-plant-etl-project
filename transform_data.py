@@ -42,6 +42,7 @@ def update_missing(collection, fields):
         )
 
 ## species update
+
 fields_to_remove = ["hybrid","authority","subspecies"]
 remove_fields(species, fields_to_remove)
 
