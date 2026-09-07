@@ -53,7 +53,6 @@ update_missing(species, unknown_species_fields)
 
 ## species detail update
 
-
 detail_fields_to_remove = ["common_name",
                            "scientific_name",
                            "family",
@@ -66,10 +65,11 @@ detail_fields_to_remove = ["common_name",
                            "authority",
                            "subspecies"
                            ]
+
 remove_fields(species_details, detail_fields_to_remove)
 
-
 unknown_detail_fields = ["pruning_count","attracts","pest_susceptibility", "maintenance"]
+
 update_missing(species_details, unknown_detail_fields)
 
 
