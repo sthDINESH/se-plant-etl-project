@@ -3,7 +3,6 @@ from pymongo import MongoClient
 client = MongoClient("mongodb://localhost:27017/")
 
 db = client["plants_101"]
-species = db["species"]
 species_details = db["species_detail"]
 
 
