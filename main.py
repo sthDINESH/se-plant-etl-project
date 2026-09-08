@@ -1,15 +1,13 @@
 from pathlib import Path
 
 from bson.json_util import dumps
-
-
 import boto3
 
-from env import MONGODB_URI, SPECIES_API, SPECIES_DETAIL_API, CONFIG
+from env import MONGODB_URI, SPECIES_API, SPECIES_DETAIL_API, CONFIG, AWS_PROFILE, S3_BUCKET
 from mongo_db_driver import get_db, get_collection
 import api_requests as api
-
-
+from clean_data import clean_species_detail
+from transform_data import remove_fields, update_missing, fields_to_remove, unknown_detail_fields
 
 # Connect to MongoDB
 db = get_db(MONGODB_URI, "plants_101")
@@ -116,45 +114,29 @@ if CONFIG['EXTRACT']:
         next_page += 1
 
 if CONFIG['TRANSFORM']:
-    # Join each species record to its detail record and store the result in
-    # a separate collection for search and downstream processing.
-    transformed_fields = [
-        "common_name", "_id", "id", "origin", "type", "dimensions", "cycle",
-        "attracts", "propagation", "hardiness", "hardiness_location",
-        "watering", "watering_general_benchmark", "plant_anatomy",
-        "sunlight", "pruning_month", "pruning_count", "seeds",
-        "maintenance", "care_guides", "soil", "growth_rate",
-        "drought_tolerant", "salt_tolerant", "thorny", "invasive",
-        "tropical", "indoor", "care_level", "pest_susceptibility",
-        "flowers", "flowering_season", "cones", "fruits", "edible_fruit",
-        "harvest_season", "leaf", "edible_leaf", "cuisine", "medicinal",
-        "poisonous_to_humans", "poisonous_to_pets", "description",
-        "default_image",
-    ]
+    # Clean the species detail record and store in separate collection
+    # for search and downstream processing
+    for species_detail in species_detail_collection.find():
 
-    for species in species_collection.find():
-        detail_id = species.get("species_detail_id")
-        if not detail_id:
-            print(f"✗ No details found for species {species.get('id')}")
-            continue
+        cleaned_species_detail = clean_species_detail(species_detail)
 
-        detail = species_detail_collection.find_one({"_id": detail_id})
-        if not detail:
-            print(f"✗ Detail document {detail_id} was not found")
-            continue
+        cleaned_species_detail = remove_fields(
+            document=cleaned_species_detail,
+            fields=fields_to_remove
+        )
 
-        transformed_species = {
-            field: detail[field]
-            for field in transformed_fields
-            if field in detail
-        }
+        cleaned_species_detail = update_missing(
+            document=cleaned_species_detail,
+            fields=unknown_detail_fields)
 
         species_search_collection.replace_one(
-            {"_id": detail["_id"]},
-            transformed_species,
+            {"_id": species_detail["_id"]},
+            cleaned_species_detail,
             upsert=True,
         )
-        print(f"✓ Transformed species {species.get('id')}")
+        print(f"✓ Transformed and saved species {species_detail.get('id')}")
+
+
 if CONFIG['LOAD']:
     print("Dumping MongoDB collections to outputs as json")
     Path("outputs").mkdir(exist_ok=True)
@@ -173,16 +155,16 @@ if CONFIG['LOAD']:
             print(f"✓ Saved outputs/{key}.json")
 
     # Save to S3
+    print("Saving species_search to S3")
     # Create client and resource objects
-    session = boto3.Session(profile_name="se-data-eng")
+    session = boto3.Session(profile_name=AWS_PROFILE)
     s3_client = session.client("s3")
 
-    bucket_name = 'se-data-with-ai-etl-project'
-
-    # Upload file to S3
     s3_client.upload_file(
         Filename="outputs/species_search.json",
-        Bucket=bucket_name,
+        Bucket=S3_BUCKET,
         Key="plants_101/species_search.json",
     )
+    print(f"✓ plants_101/species_search.json saved to {S3_BUCKET}")
+
 

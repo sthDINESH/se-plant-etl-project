@@ -808,217 +808,6 @@ def check_unique_ids(records, dataset_name):
         )
 
 
-# --------------------------------------------------
-# LOAD RAW JSON
-# --------------------------------------------------
-
-with open(
-    SPECIES_INPUT,
-    "r",
-    encoding="utf-8"
-) as file:
-
-    species_raw = json.load(file)
-
-
-with open(
-    DETAIL_INPUT,
-    "r",
-    encoding="utf-8"
-) as file:
-
-    detail_raw = json.load(file)
-
-
-print(
-    f"Loaded {len(species_raw)} species records."
-)
-
-print(
-    f"Loaded {len(detail_raw)} detail records."
-)
-
-
-# --------------------------------------------------
-# TRANSFORM
-# --------------------------------------------------
-
-species_clean = [
-    clean_species(plant)
-    for plant in species_raw
-]
-
-
-detail_clean = [
-    clean_species_detail(plant)
-    for plant in detail_raw
-]
-
-
-# --------------------------------------------------
-# VALIDATE IDS
-# --------------------------------------------------
-
-check_unique_ids(
-    species_clean,
-    "species"
-)
-
-check_unique_ids(
-    detail_clean,
-    "species_detail"
-)
-
-
-species_ids = {
-    plant["id"]
-    for plant in species_clean
-}
-
-detail_ids = {
-    plant["id"]
-    for plant in detail_clean
-}
-
-
-missing_details = species_ids - detail_ids
-
-if missing_details:
-    print(
-        f"WARNING: {len(missing_details)} species "
-        "do not have detail records."
-    )
-else:
-    print(
-        "✓ Every species has a matching detail record."
-    )
-
-
-# --------------------------------------------------
-# CREATE LOOKUP BY PLANT ID
-# --------------------------------------------------
-
-detail_by_id = {
-    plant["id"]: plant
-    for plant in detail_clean
-}
-
-
-# --------------------------------------------------
-# BUILD SEARCH-READY RECORDS
-# --------------------------------------------------
-
-semantic_search_records = []
-
-
-for plant in species_clean:
-
-    plant_id = plant["id"]
-
-    detail = detail_by_id.get(
-        plant_id,
-        {}
-    )
-
-    semantic_text = build_semantic_text(
-        plant,
-        detail
-    )
-
-    search_record = {
-        "id": plant_id,
-        "common_name": plant.get(
-            "common_name"
-        ),
-        "scientific_name": plant.get(
-            "scientific_name"
-        ),
-        "semantic_text": semantic_text,
-
-        # Structured metadata for later filtering
-        "metadata": {
-            "family": plant.get("family"),
-            "genus": plant.get("genus"),
-            "type": detail.get("type"),
-            "cycle": detail.get("cycle"),
-            "watering": detail.get("watering"),
-            "sunlight": detail.get("sunlight"),
-            "soil": detail.get("soil"),
-            "growth_rate": detail.get(
-                "growth_rate"
-            ),
-            "care_level": detail.get(
-                "care_level"
-            ),
-            "hardiness": detail.get(
-                "hardiness"
-            ),
-            "drought_tolerant": detail.get(
-                "drought_tolerant"
-            ),
-            "indoor": detail.get("indoor"),
-            "medicinal": detail.get(
-                "medicinal"
-            ),
-            "poisonous_to_humans": detail.get(
-                "poisonous_to_humans"
-            ),
-            "poisonous_to_pets": detail.get(
-                "poisonous_to_pets"
-            ),
-        }
-    }
-
-    semantic_search_records.append(
-        search_record
-    )
-
-
-# --------------------------------------------------
-# SAVE CLEANED FILES
-# --------------------------------------------------
-
-with open(
-    SPECIES_OUTPUT,
-    "w",
-    encoding="utf-8"
-) as file:
-
-    json.dump(
-        species_clean,
-        file,
-        indent=2,
-        ensure_ascii=False
-    )
-
-
-with open(
-    DETAIL_OUTPUT,
-    "w",
-    encoding="utf-8"
-) as file:
-
-    json.dump(
-        detail_clean,
-        file,
-        indent=2,
-        ensure_ascii=False
-    )
-
-
-with open(
-    SEARCH_OUTPUT,
-    "w",
-    encoding="utf-8"
-) as file:
-
-    json.dump(
-        semantic_search_records,
-        file,
-        indent=2,
-        ensure_ascii=False
-    )
-
 def validate_cleaning(species_clean, detail_clean, semantic_records):
     print("\nValidation checks:")
 
@@ -1081,24 +870,238 @@ def validate_cleaning(species_clean, detail_clean, semantic_records):
     )
 
 
-validate_cleaning(
-    species_clean,
-    detail_clean,
-    semantic_search_records
-)
+if __name__ == "__main__":
+    # --------------------------------------------------
+    # LOAD RAW JSON
+    # --------------------------------------------------
+
+    with open(
+        SPECIES_INPUT,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        species_raw = json.load(file)
 
 
-print()
-print("Cleaning complete.")
+    with open(
+        DETAIL_INPUT,
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-print(
-    f"✓ Created {SPECIES_OUTPUT}"
-)
+        detail_raw = json.load(file)
 
-print(
-    f"✓ Created {DETAIL_OUTPUT}"
-)
 
-print(
-    f"✓ Created {SEARCH_OUTPUT}"
-)
+    print(
+        f"Loaded {len(species_raw)} species records."
+    )
+
+    print(
+        f"Loaded {len(detail_raw)} detail records."
+    )
+
+
+    # --------------------------------------------------
+    # TRANSFORM
+    # --------------------------------------------------
+
+    species_clean = [
+        clean_species(plant)
+        for plant in species_raw
+    ]
+
+
+    detail_clean = [
+        clean_species_detail(plant)
+        for plant in detail_raw
+    ]
+
+
+    # --------------------------------------------------
+    # VALIDATE IDS
+    # --------------------------------------------------
+
+    check_unique_ids(
+        species_clean,
+        "species"
+    )
+
+    check_unique_ids(
+        detail_clean,
+        "species_detail"
+    )
+
+
+    species_ids = {
+        plant["id"]
+        for plant in species_clean
+    }
+
+    detail_ids = {
+        plant["id"]
+        for plant in detail_clean
+    }
+
+
+    missing_details = species_ids - detail_ids
+
+    if missing_details:
+        print(
+            f"WARNING: {len(missing_details)} species "
+            "do not have detail records."
+        )
+    else:
+        print(
+            "✓ Every species has a matching detail record."
+        )
+
+
+    # --------------------------------------------------
+    # CREATE LOOKUP BY PLANT ID
+    # --------------------------------------------------
+
+    detail_by_id = {
+        plant["id"]: plant
+        for plant in detail_clean
+    }
+
+
+    # --------------------------------------------------
+    # BUILD SEARCH-READY RECORDS
+    # --------------------------------------------------
+
+    semantic_search_records = []
+
+
+    for plant in species_clean:
+
+        plant_id = plant["id"]
+
+        detail = detail_by_id.get(
+            plant_id,
+            {}
+        )
+
+        semantic_text = build_semantic_text(
+            plant,
+            detail
+        )
+
+        search_record = {
+            "id": plant_id,
+            "common_name": plant.get(
+                "common_name"
+            ),
+            "scientific_name": plant.get(
+                "scientific_name"
+            ),
+            "semantic_text": semantic_text,
+
+            # Structured metadata for later filtering
+            "metadata": {
+                "family": plant.get("family"),
+                "genus": plant.get("genus"),
+                "type": detail.get("type"),
+                "cycle": detail.get("cycle"),
+                "watering": detail.get("watering"),
+                "sunlight": detail.get("sunlight"),
+                "soil": detail.get("soil"),
+                "growth_rate": detail.get(
+                    "growth_rate"
+                ),
+                "care_level": detail.get(
+                    "care_level"
+                ),
+                "hardiness": detail.get(
+                    "hardiness"
+                ),
+                "drought_tolerant": detail.get(
+                    "drought_tolerant"
+                ),
+                "indoor": detail.get("indoor"),
+                "medicinal": detail.get(
+                    "medicinal"
+                ),
+                "poisonous_to_humans": detail.get(
+                    "poisonous_to_humans"
+                ),
+                "poisonous_to_pets": detail.get(
+                    "poisonous_to_pets"
+                ),
+            }
+        }
+
+        semantic_search_records.append(
+            search_record
+        )
+
+
+    # --------------------------------------------------
+    # SAVE CLEANED FILES
+    # --------------------------------------------------
+
+    with open(
+        SPECIES_OUTPUT,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            species_clean,
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
+
+
+    with open(
+        DETAIL_OUTPUT,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            detail_clean,
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
+
+
+    with open(
+        SEARCH_OUTPUT,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            semantic_search_records,
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
+
+
+
+    validate_cleaning(
+        species_clean,
+        detail_clean,
+        semantic_search_records
+    )
+
+
+    print()
+    print("Cleaning complete.")
+
+    print(
+        f"✓ Created {SPECIES_OUTPUT}"
+    )
+
+    print(
+        f"✓ Created {DETAIL_OUTPUT}"
+    )
+
+    print(
+        f"✓ Created {SEARCH_OUTPUT}"
+    )

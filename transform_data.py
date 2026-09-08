@@ -15,34 +15,29 @@ species_details = db["species_detail"]
 
 
 # Remove unnecessary fields from each document
-def remove_fields(collection, fields):
-    for plant in collection.find():
-        for field in fields:
-            plant.pop(field, None)
+def remove_fields(document, fields):
+    # for plant in collection.find():
+    return {
+        key: value
+        for key, value in document.items()
+        if key not in fields
+    }
 
-        collection.replace_one(
-            {"_id": plant["_id"]},
-            plant
-        )
 
 # Change null values to unknown in each document
-def update_missing(collection, fields):
-    for plant in collection.find():
-        for field in fields:
-            if plant.get(field) is None:
-                plant[field] = "Unknown"
-
-            elif isinstance(plant[field], list) and plant[field] == []:
-                plant[field] = ["Unknown"]
-
-        collection.replace_one(
-            {"_id": plant["_id"]},
-            plant
-        )
+def update_missing(document, fields):
+    return {
+        key: (
+            "Unknown" if key in fields and value is None else ["Unknown"]
+            if key in fields and isinstance(value, list) and value == []
+            else value
+            )
+        for key, value in document.items()
+    }
 
 
 fields_to_remove = ["hybrid","authority","subspecies", "default_image", "hardiness_location"]
-remove_fields(species_details, fields_to_remove)
+# remove_fields(species_details, fields_to_remove)
 
 
 unknown_detail_fields = ["pruning_count",
@@ -56,14 +51,21 @@ unknown_detail_fields = ["pruning_count",
                          "soil",
                          "plant_anatomy"
                         ]
-update_missing(species_details, unknown_detail_fields)
+# update_missing(species_details, unknown_detail_fields)
 
+if __name__ == '__main__':
+    # Converted hardiness min and max values from strings to integers
+    for details in species_details.find():
+        hardiness = details.get("hardiness")
 
-# Converted hardiness min and max values from strings to integers
+        if hardiness:
+            if hardiness.get("min") != "unknown":
+                hardiness["min"] = int(hardiness["min"])
 
-for details in species_details.find():
-    hardiness = details.get("hardiness")
+            if hardiness.get("max") != "unknown":
+                hardiness["max"] = int(hardiness["max"])
 
+<<<<<<< HEAD
     if hardiness:
         if hardiness.get("min") != "unknown":
             hardiness["min"] = int(hardiness["min"])
@@ -75,3 +77,9 @@ for details in species_details.find():
             {"_id": details["_id"]},
             details
         )
+=======
+            species_details.replace_one(
+                {"_id": details["_id"]},
+                details
+            )
+>>>>>>> a05158d (add updated transform stage to the etl pipeline)

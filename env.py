@@ -13,9 +13,15 @@ PERENUAL_ENDPOINT = 'https://perenual.com/api/v2/'
 SPECIES_API = PERENUAL_ENDPOINT + 'species-list'
 SPECIES_DETAIL_API = PERENUAL_ENDPOINT + 'species/details/'
 
+# AWS profile
+AWS_PROFILE = os.getenv("AWS_PROFILE", 'default')
+
+# S3 bucket
+S3_BUCKET = 'se-data-with-ai-etl-project'
+
 # Configuration to selectively enable different ETL stages
 CONFIG = {
-    'EXTRACT': True,
+    'EXTRACT': False,
     'TRANSFORM': True,
     'LOAD': True,
 }
