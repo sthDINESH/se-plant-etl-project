@@ -65,7 +65,6 @@ if __name__ == '__main__':
             if hardiness.get("max") != "unknown":
                 hardiness["max"] = int(hardiness["max"])
 
-<<<<<<< HEAD
     if hardiness:
         if hardiness.get("min") != "unknown":
             hardiness["min"] = int(hardiness["min"])
@@ -77,9 +76,3 @@ if __name__ == '__main__':
             {"_id": details["_id"]},
             details
         )
-=======
-            species_details.replace_one(
-                {"_id": details["_id"]},
-                details
-            )
->>>>>>> a05158d (add updated transform stage to the etl pipeline)
