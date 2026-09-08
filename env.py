@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 PERENUAL_API_KEY = os.getenv("PERENUAL_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+FLASK_DEBUG_MODE = os.getenv("FLASK_DEBUG_ON", False)
 
 # URI for mongoDB database
 MONGODB_URI = 'mongodb://localhost:27017/'

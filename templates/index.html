@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plants 101</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main>
+        <h1>🌱 Plants 101</h1>
+
+        <p>Ask me anything about plants.</p>
+
+        <form id="search-form">
+
+            <textarea id="question" placeholder="e.g. What are some low maintenance indoor plants?" rows="4"
+                required></textarea>
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+        <div id="loading" hidden>
+            Searching...
+        </div>
+
+        <section id="result" hidden>
+
+            <h2>Answer</h2>
+
+            <p id="answer"></p>
+
+            <h2>Relevant Plants</h2>
+
+            <div id="plants"></div>
+
+        </section>
+
+    </main>
+
+    <script>
+
+        const form = document.getElementById("search-form");
+        const question = document.getElementById("question");
+        const result = document.getElementById("result");
+        const answer = document.getElementById("answer");
+        const plants = document.getElementById("plants");
+        const loading = document.getElementById("loading");
+
+
+        form.addEventListener("submit", async (event) => {
+
+            event.preventDefault();
+
+            const userQuestion = question.value.trim();
+
+            if (!userQuestion) {
+                return;
+            }
+
+            loading.hidden = false;
+            result.hidden = true;
+
+            try {
+
+                const response = await fetch("/search", {
+
+                    method: "POST",
+
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+
+                    body: JSON.stringify({
+                        question: userQuestion
+                    })
+
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error);
+                }
+
+                answer.textContent = data.answer;
+
+                plants.innerHTML = data.plants
+                    .map(plant => `
+                        <article>
+                            <h3>${plant.common_name}</h3>
+                            <p>${plant.description}</p>
+                        </article>
+                    `)
+                    .join("");
+
+                result.hidden = false;
+
+            } catch (error) {
+
+                answer.textContent = `Error: ${error.message}`;
+                result.hidden = false;
+
+            } finally {
+
+                loading.hidden = true;
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>

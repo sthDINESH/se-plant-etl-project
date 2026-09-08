@@ -102,23 +102,24 @@ def generate_answer(prompt, plants):
     return interaction.output_text
 
 
-# Ask the user questions
-while True:
+if __name__ == "__main__":
+    # Ask the user questions
+    while True:
 
-    prompt = input(
-        "Enter search query (type 'quit' to stop): "
-    )
+        prompt = input(
+            "Enter search query (type 'quit' to stop): "
+        )
 
-    if prompt.strip().lower() == "quit":
-        break
+        if prompt.strip().lower() == "quit":
+            break
 
-    # Retrieve relevant plants
-    print("Retrieving relevant plants")
-    plants = search_plants(prompt, k=10)
+        # Retrieve relevant plants
+        print("Retrieving relevant plants")
+        plants = search_plants(prompt, k=10)
 
-    # Generate RAG answer
-    print(f"Checking with {GEMINI_MODEL}")
-    answer = generate_answer(prompt, plants)
+        # Generate RAG answer
+        print(f"Checking with {GEMINI_MODEL}")
+        answer = generate_answer(prompt, plants)
 
-    print("\nAnswer:")
-    print(answer)
+        print("\nAnswer:")
+        print(answer)
