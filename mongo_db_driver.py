@@ -29,7 +29,10 @@ def get_db(uri, database):
         else:
             db = client.get_database(database)
             metadata = db.get_collection("_database_metadata")
-            metadata.insert_one({"_id": "initialized"})
+            metadata.insert_one({
+                "extracted_page": 0,
+                "extracted_plant_id": 0,
+            })
             print(f"✓ Database '{database}' created.")
             return db
 

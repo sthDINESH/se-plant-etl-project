@@ -3,9 +3,9 @@ import requests
 from env import PERENUAL_API_KEY
 
 
-def get(url, params=None):
+def get(url, **kwargs):
     """Send an authenticated GET request and return the JSON response."""
-    request_params = dict(params or {})
+    request_params = dict(kwargs)
     request_params["key"] = PERENUAL_API_KEY
 
     try:

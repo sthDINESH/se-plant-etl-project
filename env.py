@@ -8,6 +8,7 @@ PERENUAL_API_KEY = os.getenv("PERENUAL_API_KEY")
 # URI for mongoDB database
 MONGODB_URI = 'mongodb://localhost:27017/'
 
+# Perenual endpoints
 PERENUAL_ENDPOINT = 'https://perenual.com/api/v2/'
 SPECIES_API = PERENUAL_ENDPOINT + 'species-list'
 SPECIES_DETAIL_API = PERENUAL_ENDPOINT + 'species/details/'
