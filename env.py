@@ -19,6 +19,7 @@ AWS_PROFILE = os.getenv("AWS_PROFILE", 'default')
 # S3 bucket
 S3_BUCKET = 'se-data-with-ai-etl-project'
 S3_ETL_JSON_KEY = 'plants_101/species_search.json'
+S3_ETL_JSON_WITH_EMBEDDINGS_KEY = 'plants_101/species_search_with_embeddings.json'
 
 # Sentence transformer model
 SBERT_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
@@ -32,3 +33,4 @@ CONFIG = {
 
 # Paths to output directories and files
 OUTPUT_DIR = "outputs"
+JSON_WITH_EMBEDDINGS = f"{OUTPUT_DIR}/species_search_with_embeddings.json"

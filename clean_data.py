@@ -631,7 +631,7 @@ def add_semantic_part(parts, label, value):
 # BUILD SEMANTIC TEXT
 # --------------------------------------------------
 
-def build_semantic_text(species, detail):
+def build_semantic_text(detail):
     """
     Create one deterministic text representation
     per plant for future embedding generation.
@@ -642,31 +642,31 @@ def build_semantic_text(species, detail):
     add_semantic_part(
         parts,
         "Name",
-        species.get("common_name")
+        detail.get("common_name")
     )
 
     add_semantic_part(
         parts,
         "Scientific name",
-        species.get("scientific_name")
+        detail.get("scientific_name")
     )
 
     add_semantic_part(
         parts,
         "Other names",
-        species.get("other_name")
+        detail.get("other_name")
     )
 
     add_semantic_part(
         parts,
         "Family",
-        species.get("family")
+        detail.get("family")
     )
 
     add_semantic_part(
         parts,
         "Genus",
-        species.get("genus")
+        detail.get("genus")
     )
 
     add_semantic_part(
