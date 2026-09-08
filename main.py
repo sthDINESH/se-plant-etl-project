@@ -3,7 +3,16 @@ from pathlib import Path
 from bson.json_util import dumps
 import boto3
 
-from env import MONGODB_URI, SPECIES_API, SPECIES_DETAIL_API, CONFIG, AWS_PROFILE, S3_BUCKET
+from env import (
+    MONGODB_URI,
+    SPECIES_API,
+    SPECIES_DETAIL_API,
+    CONFIG,
+    AWS_PROFILE,
+    S3_BUCKET,
+    OUTPUT_DIR,
+    S3_ETL_JSON_KEY,
+)
 from mongo_db_driver import get_db, get_collection
 import api_requests as api
 from clean_data import clean_species_detail
@@ -139,7 +148,7 @@ if CONFIG['TRANSFORM']:
 
 if CONFIG['LOAD']:
     print("Dumping MongoDB collections to outputs as json")
-    Path("outputs").mkdir(exist_ok=True)
+    Path(OUTPUT_DIR).mkdir(exist_ok=True)
     collection_to_dump = {
         'metadata': metadata.find(),
         'species': species_collection.find(),
@@ -150,7 +159,7 @@ if CONFIG['LOAD']:
     for key in collection_to_dump.keys():
         documents_list = list(collection_to_dump[key])
 
-        with open(f"outputs/{key}.json", "w", encoding="utf-8") as file:
+        with open(f"{OUTPUT_DIR}/{key}.json", "w", encoding="utf-8") as file:
             file.write(dumps(documents_list, indent=4))
             print(f"✓ Saved outputs/{key}.json")
 
@@ -161,10 +170,8 @@ if CONFIG['LOAD']:
     s3_client = session.client("s3")
 
     s3_client.upload_file(
-        Filename="outputs/species_search.json",
+        Filename=f"{OUTPUT_DIR}/species_search.json",
         Bucket=S3_BUCKET,
-        Key="plants_101/species_search.json",
+        Key=S3_ETL_JSON_KEY,
     )
-    print(f"✓ plants_101/species_search.json saved to {S3_BUCKET}")
-
-
+    print(f"✓ {S3_ETL_JSON_KEY} saved to {S3_BUCKET}")

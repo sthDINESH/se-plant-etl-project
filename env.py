@@ -18,6 +18,10 @@ AWS_PROFILE = os.getenv("AWS_PROFILE", 'default')
 
 # S3 bucket
 S3_BUCKET = 'se-data-with-ai-etl-project'
+S3_ETL_JSON_KEY = 'plants_101/species_search.json'
+
+# Sentence transformer model
+SBERT_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
 
 # Configuration to selectively enable different ETL stages
 CONFIG = {
@@ -25,3 +29,6 @@ CONFIG = {
     'TRANSFORM': True,
     'LOAD': True,
 }
+
+# Paths to output directories and files
+OUTPUT_DIR = "outputs"
