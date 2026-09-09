@@ -72,8 +72,8 @@ The project implements a complete ETL pipeline to retrieve plant data from an ex
 
 The plant data was extracted from two Perenual API endpoints:
 
-- Species list: `https://perenual.com/api/v2/species-list`
-- Species detail: `https://perenual.com/api/v2/species/details/[ID]`
+🌱 Species list: `https://perenual.com/api/v2/species-list` <br>
+🌱 Species detail: `https://perenual.com/api/v2/species/details/[ID]`
 
 
 > **Extraction considerations**
@@ -90,13 +90,13 @@ The plant data was extracted from two Perenual API endpoints:
 
 The raw datasets were cleaned and normalized while preserving the original plant information. The transformation included:
 
-- Removing unnecessary whitespace and duplicate list values.
-- Standardizing categorical values such as sunlight, watering, soil and maintenance.
-- Converting numeric values, such as hardiness ratings, from strings to numbers.
-- Converting watering ranges into structured numeric fields.
-- Removing API subscription messages, credentials, unnecessary URLs and HTML that did not describe the plant.
-- Preserving missing values as `null` rather than replacing them with misleading defaults.
-- Keeping the species and detailed species datasets separate while preserving their relationship through plant IDs.
+🌱 Removing unnecessary whitespace and duplicate list values. <br>
+🌱 Standardising categorical values such as sunlight, watering, soil and maintenance. <br>
+🌱 Converting numeric values, such as hardiness ratings, from strings to numbers. <br>
+🌱 Converting watering ranges into structured numeric fields. <br>
+🌱 Removing API subscription messages, credentials, unnecessary URLs and HTML that did not describe the plant. <br>
+🌱 Preserving missing values as `null` rather than replacing them with misleading defaults. <br>
+🌱 Keeping the species and detailed species datasets separate while preserving their relationship through plant IDs. <br>
 
 For a detailed explanation of the cleaning decisions and their rationale, see [`rationale.md`](rationale.md).
 
@@ -111,8 +111,8 @@ The cleaned `species_search` collection from MongoDB is exported as JSON to:
 
 The resulting JSON dataset is then uploaded to AWS S3:
 
-- **S3 Bucket:** `se-data-with-ai-etl-project`
-- **Key:** `plants_101/species_search.json`
+🌱 **S3 Bucket:** `se-data-with-ai-etl-project` <br>
+🌱 **Key:** `plants_101/species_search.json` <br>
 
 This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
 
