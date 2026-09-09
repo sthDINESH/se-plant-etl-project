@@ -1,6 +1,7 @@
-# Plants 101
+<img src="presentation/Plants101-banner.png" alt="Plant Data Pipeline Banner">
 
 ## Introduction
+
 ### Concept
 The concept of this project was to build a data pipeline that retrieves data from an API, transforms it, and loads it for use in a search and recommendation system enhanced with semantic search and RAG.
 
@@ -58,6 +59,8 @@ python main.py
 
 The `.env` file contains a secret and should not be committed to Git.
 
+<br>
+
 ## Processes
 ### ETL Pipeline
 <br>
@@ -67,6 +70,8 @@ The `.env` file contains a secret and should not be committed to Git.
 <br>
 
 The project implements a complete ETL pipeline to retrieve plant data from an external API, clean and transform the data, and load the resulting dataset into an AWS S3 bucket for downstream search and RAG applications.
+
+<br>
 
 ### Extract
 
@@ -86,6 +91,9 @@ The plant data was extracted from two Perenual API endpoints:
 >   - A **metadata collection tracks extraction progress and history**.
 >   - This makes the pipeline **resumable and repeatable** without losing previously collected data.
 
+
+<br>
+
 ### Transform
 
 The raw datasets were cleaned and normalized while preserving the original plant information. The transformation included:
@@ -102,6 +110,7 @@ For a detailed explanation of the cleaning decisions and their rationale, see [`
 
 The cleaned dataset is then stored in a `species_search` collection in MongoDB.
 
+<br>
 
 ### Load
 
@@ -115,6 +124,8 @@ The resulting JSON dataset is then uploaded to AWS S3:
 🌱 **Key:** `plants_101/species_search.json` <br>
 
 This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
+
+<br>
 
 ### Semantic Search
 
