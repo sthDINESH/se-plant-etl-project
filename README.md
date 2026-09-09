@@ -155,6 +155,13 @@ The cleaned dataset is then stored in a `species_search` collection in MongoDB.
 
 This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
 
+### ETL Demo
+<br>
+
+<img src="presentation/etl_demo.gif" alt="ETL Demo" width="1350">
+
+<br>
+
 <br>
 
 ### Semantic Search
