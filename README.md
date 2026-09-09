@@ -63,6 +63,8 @@ The `.env` file contains a secret and should not be committed to Git.
 
 ## Processes
 ### ETL Pipeline
+The project implements a complete ETL pipeline to retrieve plant data from an external API, clean and transform the data, and load the resulting dataset into an AWS S3 bucket for downstream search and RAG applications.
+
 <br>
 
 <img src="presentation/ETL-pipeline.png" alt="ETL pipeline" width="1350">
@@ -96,7 +98,7 @@ The plant data was extracted from two Perenual API endpoints:
 
 ### Transform
 
-The raw datasets were cleaned and normalized while preserving the original plant information. The transformation included:
+The transformations included:
 
 🌱 Removing unnecessary whitespace and duplicate list values. <br>
 🌱 Standardising categorical values such as sunlight, watering, soil and maintenance. <br>
@@ -114,14 +116,13 @@ The cleaned dataset is then stored in a `species_search` collection in MongoDB.
 
 ### Load
 
-The cleaned `species_search` collection from MongoDB is exported as JSON to:
+- `species_search` collection from MongoDB is exported as JSON to `outputs/species_search.json`
 
-`outputs/species_search.json`
-
-The resulting JSON dataset is then uploaded to AWS S3:
+- The resulting JSON dataset is then uploaded to AWS S3
 
 🌱 **S3 Bucket:** `se-data-with-ai-etl-project` <br>
 🌱 **Key:** `plants_101/species_search.json` <br>
+
 
 This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
 
@@ -129,7 +130,48 @@ This provides the processed dataset as a reusable input for the downstream seman
 
 ### Semantic Search
 
-A separate `semantic_search` dataset was then created by logically joining the cleaned datasets. Each plant was represented using a natural-language `semantic_text` field for embeddings, alongside structured metadata for exact filtering. This creates a dataset suitable for semantic search, vector search and future hybrid search.
+The semantic search component builds on the cleaned `species_search` dataset generated from ETL pipeline by creating a representation of each plant that can be used for meaning-based search rather than relying solely on exact keyword matches.
+
+The semantic search dataset is designed to sit between the ETL pipeline and the downstream AI applications, turning the cleaned plant data into a representation that can be searched based on meaning.
+
+The goal was to allow users to describe what they are looking for in natural language, such as:
+
+> *"A low-maintenance indoor plant that doesn't need much sunlight."*
+
+<br>
+
+<img src="presentation/semantic-search.png" alt="Semantic search pipeline" width="1000">
+
+<br>
+
+
+#### Dataset preparation
+
+- For each plant, a `semantic_text` field was created containing the most useful natural-language information about the plant. 
+- Structured fields were retained separately from `semantic_text`. This allows the system to distinguish between:
+    - **Semantic information** that are useful for understanding the meaning of a query.
+    - **Structured metadata** that can be used for filtering or refining search results.
+
+This separation provides the foundation for combining semantic similarity with traditional metadata filtering.
+
+#### Embeddings
+
+- The `semantic_text` for each plant is converted into a numerical vector representation called an **embedding**.
+- Model used:
+    - `sentence-transformers/all-MiniLM-L6-v2`
+
+
+> **Considerations when generating embeddings**
+>
+> - Dynamically generating embeddings using `sentence-transformers` can be slow and negatively impact response times.
+> - Embeddings are therefore generated **statically** and stored in JSON for faster retrieval.
+> - This improves **search performance and overall user experience** by avoiding repeated embedding generation.
+
+#### Vector search
+
+- Natural-language user query is also converted into an embedding using the same model. 
+- The query embedding can then be compared with the plant embeddings to identify the plants that are most semantically similar to what the user is looking for.
+
 
 ### RAG
 
