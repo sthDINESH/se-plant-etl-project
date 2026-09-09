@@ -62,6 +62,7 @@ python3 etl.py
 2. Semantic search 
 
 ```bash
+python3 generate_embeddings.py
 python3 semantic_search.py
 ```
 
@@ -209,6 +210,12 @@ This separation provides the foundation for combining semantic similarity with t
 🌱 Natural-language user query is also converted into an embedding using the same model.<br>
 🌱 The query embedding can then be compared with the plant embeddings to identify the plants that are most semantically similar to what the user is looking for.
 
+### Semantic Search Demo
+<br>
+
+<img src="presentation/semantic_search_demo.gif" alt="Semantic Search Demo" width="1350">
+
+<br>
 
 ### RAG
 
@@ -236,6 +243,19 @@ The RAG component combines the semantic search system with a large language mode
 > - OpenAI and Anthropic also provide developer APIs, but their standard API usage is primarily **usage-based and paid**, with more limited free credits or trials.
 > - **Ollama** was considered as a local alternative. While it avoids API costs, it requires local hardware to run the model and can introduce additional performance and setup requirements.
 
+### RAG Search Demo(Terminal application)
+<br>
+
+<img src="presentation/rag_search_demo.gif" alt="Semantic Search Demo" width="1350">
+
+<br>
+
+### RAG Search Demo(Web UI)
+<br>
+
+<img src="presentation/rag_search_demo_webui.gif" alt="Semantic Search Demo" width="1350">
+
+<br>
 
 ## Lessons learnt
 ## Future enhancements
