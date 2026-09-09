@@ -1,4 +1,4 @@
-<img src="presentation/Plants101-banner.png" alt="Plant Data Pipeline Banner">
+<img src="presentation/Plants101-banner.png" alt="introduction banner">
 
 ## Introduction
 
