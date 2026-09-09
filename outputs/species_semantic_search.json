@@ -1,0 +1,2581 @@
+[
+    {
+        "_id": {
+            "$oid": "6a9f147abc4003bac0c1d4da"
+        },
+        "id": 1,
+        "common_name": "European Silver Fir",
+        "scientific_name": [
+            "Abies alba"
+        ],
+        "other_name": [
+            "Common Silver Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "alba",
+        "genus": "Abies",
+        "origin": [
+            "Austria",
+            "Germany",
+            "Switzerland",
+            "France",
+            "Italy",
+            "Slovenia",
+            "Croatia",
+            "Bosnia and Herzegovina",
+            "Serbia",
+            "Montenegro",
+            "Albania",
+            "Bulgaria",
+            "Romania",
+            "Ukraine",
+            "Poland",
+            "Czech Republic",
+            "Slovakia",
+            "Hungary"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 60,
+                "max_value": 60,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Seed Propagation",
+            "Air Layering Propagation",
+            "Tissue Culture"
+        ],
+        "hardiness": {
+            "min": 7,
+            "max": 7
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            "Unknown"
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=1",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "high",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": true,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "European Silver Fir (Abies alba) is an amazing coniferous species native to mountainous regions of central Europe and the Balkans. It is an evergreen tree with a narrow, pyramidal shape and long, soft needles. Its bark is scaly grey-brown and its branches are highly ornamental due to its conical-shaped silver-tinged needles. It is pruned for use as an ornamental evergreen hedging and screening plant, and is also popular for use as a Christmas tree. Young trees grow quickly and have strong, flexible branches which makes them perfect for use as windbreaks. The European Silver Fir is an impressive species, making it ideal for gardens and public spaces.",
+        "semantic_text": "Name: European Silver Fir. Scientific name: Abies alba. Other names: Common Silver Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Austria; Germany; Switzerland; France; Italy; Slovenia; Croatia; Bosnia and Herzegovina; Serbia; Montenegro; Albania; Bulgaria; Romania; Ukraine; Poland; Czech Republic; Slovakia; Hungary. Watering: frequent. Sunlight: full sun. Soil: Unknown. Growth rate: high. Maintenance: Unknown. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Seed Propagation; Air Layering Propagation; Tissue Culture. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Produces cones. Trait: Medicinal. Description: European Silver Fir (Abies alba) is an amazing coniferous species native to mountainous regions of central Europe and the Balkans. It is an evergreen tree with a narrow, pyramidal shape and long, soft needles. Its bark is scaly grey-brown and its branches are highly ornamental due to its conical-shaped silver-tinged needles. It is pruned for use as an ornamental evergreen hedging and screening plant, and is also popular for use as a Christmas tree. Young trees grow quickly and have strong, flexible branches which makes them perfect for use as windbreaks. The European Silver Fir is an impressive species, making it ideal for gardens and public spaces."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147abc4003bac0c1d4db"
+        },
+        "id": 2,
+        "common_name": "Pyramidalis Silver Fir",
+        "scientific_name": [
+            "Abies alba 'Pyramidalis'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Pyramidalis",
+        "variety": "Unknown",
+        "species_epithet": "alba",
+        "genus": "Abies",
+        "origin": [
+            "Austria",
+            "Germany",
+            "Switzerland",
+            "Italy",
+            "France",
+            "Slovenia",
+            "Croatia"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 30,
+                "max_value": 30,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 4,
+            "max": 4
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "brown"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=2",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "Pyramidalis Silver Fir (Abies alba 'Pyramidalis') is an amazing coniferous tree species. Its narrow, elegant pyramidal shape makes it ideal for landscapes with limited space. This species features bright silver-green foliage year-round and distinctive yellowish brown cones that hold its unique shape for years. It also displays purple-tinged shoots in the spring and a showy red bark in the winter. Its slow growth and hardiness make it an ideal addition to any landscape. The Pyramidalis Silver Fir also requires minimal maintenance and can be an excellent companion for many other plants in the garden. From small yards to large gardens, this species will create a majestic and interesting landscape.",
+        "semantic_text": "Name: Pyramidalis Silver Fir. Scientific name: Abies alba 'Pyramidalis'. Other names: Unknown. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Austria; Germany; Switzerland; Italy; France; Slovenia; Croatia. Watering: average. Sunlight: full sun. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Produces cones. Description: Pyramidalis Silver Fir (Abies alba 'Pyramidalis') is an amazing coniferous tree species. Its narrow, elegant pyramidal shape makes it ideal for landscapes with limited space. This species features bright silver-green foliage year-round and distinctive yellowish brown cones that hold its unique shape for years. It also displays purple-tinged shoots in the spring and a showy red bark in the winter. Its slow growth and hardiness make it an ideal addition to any landscape. The Pyramidalis Silver Fir also requires minimal maintenance and can be an excellent companion for many other plants in the garden. From small yards to large gardens, this species will create a majestic and interesting landscape."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147bbc4003bac0c1d4dc"
+        },
+        "id": 3,
+        "common_name": "White Fir",
+        "scientific_name": [
+            "Abies concolor"
+        ],
+        "other_name": [
+            "Silver Fir",
+            "Concolor Fir",
+            "Colorado Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "concolor",
+        "genus": "Abies",
+        "origin": [
+            "Western United States",
+            "Mexico"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 45,
+                "max_value": 45,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Seed Propagation",
+            "Hardwood Cuttings"
+        ],
+        "hardiness": {
+            "min": 3,
+            "max": 3
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "silver-green",
+                    "silvery-green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "silver",
+                    "green-brown",
+                    "silver-brown"
+                ]
+            },
+            {
+                "part": "needles",
+                "color": [
+                    "silvery-green"
+                ]
+            },
+            {
+                "part": "stem",
+                "color": [
+                    "brown"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "moderate",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=3",
+        "soil": [
+            "acidic",
+            "rocky",
+            "gravelly",
+            "dry",
+            "well-drained"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "moderate",
+        "pest_susceptibility": [
+            "aphids",
+            "adelgids",
+            "canker",
+            "sap rot",
+            "dieback",
+            "root rot",
+            "pest resistant",
+            "disease resistant"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": true,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "White Fir (Abies concolor) is an amazing evergreen tree species found in the western United States. It has a distinct white bark that fades to a yellowish hue on the lower branches and a graceful, conical shape. The beautiful Blue-green needles of White Fir are soft and tufted at the end and release a pleasant Christmas-like aroma when crushed. This sturdy species can grow up to 300 feet tall and over 140 years old, making it one of the longest living species in the world. It is highly adaptable, drought-tolerant, and very low maintenance with minimal pruning requirements. White Fir is an excellent choice for privacy screens, windbreaks, and living Christmas trees.",
+        "semantic_text": "Name: White Fir. Scientific name: Abies concolor. Other names: Silver Fir; Concolor Fir; Colorado Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Western United States; Mexico. Watering: average. Sunlight: full sun; part shade. Soil: acidic; rocky; gravelly; dry; well-drained. Growth rate: low. Maintenance: moderate. Care level: moderate. Propagation: Seed Propagation; Hardwood Cuttings. Attracts: Unknown. Pest susceptibility: aphids; adelgids; canker; sap rot; dieback; root rot; pest resistant; disease resistant. Trait: Drought tolerant. Trait: Produces flowers. Trait: Produces cones. Trait: Medicinal. Description: White Fir (Abies concolor) is an amazing evergreen tree species found in the western United States. It has a distinct white bark that fades to a yellowish hue on the lower branches and a graceful, conical shape. The beautiful Blue-green needles of White Fir are soft and tufted at the end and release a pleasant Christmas-like aroma when crushed. This sturdy species can grow up to 300 feet tall and over 140 years old, making it one of the longest living species in the world. It is highly adaptable, drought-tolerant, and very low maintenance with minimal pruning requirements. White Fir is an excellent choice for privacy screens, windbreaks, and living Christmas trees."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147bbc4003bac0c1d4dd"
+        },
+        "id": 4,
+        "common_name": "Candicans White Fir",
+        "scientific_name": [
+            "Abies concolor 'Candicans'"
+        ],
+        "other_name": [
+            "Silver Fir",
+            "Concolor Fir",
+            "Colorado Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Candicans",
+        "variety": "Unknown",
+        "species_epithet": "concolor",
+        "genus": "Abies",
+        "origin": [
+            "United States"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 30,
+                "max_value": 30,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 4,
+            "max": 4
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "stems",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "June",
+            "July"
+        ],
+        "pruning_count": {
+            "amount": 2,
+            "interval": "yearly"
+        },
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=4",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "Candicans White Fir is one of the most amazing species of fir tree. Its vibrant, powdery-white needles make it a real show-stopper in the winter and spring. The light color is also resistant to bronzing or discoloration, so the brilliant hue is maintained for many years. It also has a unique branch structure with a strong central leader and shorter lateral branches creating an eye-catching silhouette. This species is hardy and tolerant to a variety of soil types, making it a great choice for difficult areas. Its fast growth rate creates an impressive display quickly, making it an excellent choice to add curb appeal to your landscape.",
+        "semantic_text": "Name: Candicans White Fir. Scientific name: Abies concolor 'Candicans'. Other names: Silver Fir; Concolor Fir; Colorado Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: United States. Watering: average. Sunlight: full sun. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Drought tolerant. Trait: Produces cones. Description: Candicans White Fir is one of the most amazing species of fir tree. Its vibrant, powdery-white needles make it a real show-stopper in the winter and spring. The light color is also resistant to bronzing or discoloration, so the brilliant hue is maintained for many years. It also has a unique branch structure with a strong central leader and shorter lateral branches creating an eye-catching silhouette. This species is hardy and tolerant to a variety of soil types, making it a great choice for difficult areas. Its fast growth rate creates an impressive display quickly, making it an excellent choice to add curb appeal to your landscape."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147cbc4003bac0c1d4de"
+        },
+        "id": 5,
+        "common_name": "Fraser Fir",
+        "scientific_name": [
+            "Abies fraseri"
+        ],
+        "other_name": [
+            "Southern Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "fraseri",
+        "genus": "Abies",
+        "origin": [
+            "Southeastern United States"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 35,
+                "max_value": 35,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Seed Propagation",
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Tissue Culture"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 6,
+            "max_days": 12
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green"
+                ]
+            },
+            {
+                "part": "cones",
+                "color": [
+                    "light-green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "silver"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade",
+            "filtered shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April",
+            "June",
+            "July",
+            "August"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "moderate",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=5",
+        "soil": [
+            "well-drained"
+        ],
+        "growth_rate": "moderate",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "aphids",
+            "adelgids",
+            "pest resistant",
+            "disease resistant"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Fraser Fir (Abies fraseri) is an amazing tree species with many great qualities. It is a dense evergreen conifer native to the Appalachian mountains. Its pyramidal shape and glossy dark green needles, that curve upward, make it a beautiful and popular Christmas tree. Its needles are short, soft, flat and pleasant to the touch. It has been found to be highly resistant to pests, diseases, and environmental stress. Additionally, it has superior winter hardiness and a strong wood that produces very little sap. This incredible species is perfect for a variety of evergreen applications and is guaranteed to bring a unique and beautiful look to any landscape.",
+        "semantic_text": "Name: Fraser Fir. Scientific name: Abies fraseri. Other names: Southern Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Southeastern United States. Watering: frequent. Sunlight: full sun; part shade; filtered shade. Soil: well-drained. Growth rate: moderate. Maintenance: moderate. Care level: medium. Propagation: Seed Propagation; Cutting; Grafting Propagation; Layering Propagation; Tissue Culture. Attracts: Unknown. Pest susceptibility: aphids; adelgids; pest resistant; disease resistant. Trait: Produces flowers. Trait: Produces cones. Description: The Fraser Fir (Abies fraseri) is an amazing tree species with many great qualities. It is a dense evergreen conifer native to the Appalachian mountains. Its pyramidal shape and glossy dark green needles, that curve upward, make it a beautiful and popular Christmas tree. Its needles are short, soft, flat and pleasant to the touch. It has been found to be highly resistant to pests, diseases, and environmental stress. Additionally, it has superior winter hardiness and a strong wood that produces very little sap. This incredible species is perfect for a variety of evergreen applications and is guaranteed to bring a unique and beautiful look to any landscape."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147dbc4003bac0c1d4df"
+        },
+        "id": 6,
+        "common_name": "Golden Korean Fir",
+        "scientific_name": [
+            "Abies koreana 'Aurea'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Aurea",
+        "variety": "Unknown",
+        "species_epithet": "koreana",
+        "genus": "Abies",
+        "origin": [
+            "North and South Korea"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Seed Propagation",
+            "Air Layering Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "green",
+                    "yellow-green",
+                    "silver-yellow-green"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "silver-brown",
+                    "white-silver"
+                ]
+            },
+            {
+                "part": "cones",
+                "color": [
+                    "violet-purple"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "June",
+            "May"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "moderate",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=6",
+        "soil": [
+            "well-drained"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "aphids",
+            "adelgids",
+            "blight",
+            "needle cast",
+            "caterpillar",
+            "cutworm",
+            "root rot",
+            "rust",
+            "pest resistant",
+            "disease resistant",
+            "deer resistant",
+            "drought resistant"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Golden Korean Fir is truly awe inspiring. Its stunning golden-green foliage and soft pink cones make it a majestic wonder to behold. This evergreen tree grows quickly and is remarkably tough and resistant to brittleness. Its branches form a distinctive cone shape that gives it a modern, contemporary look. Its needles are soft and full of pleasant aroma. This amazing specimen requires minimal maintenance and is an ideal focal point for landscaping and garden design. Its unique foliage, easy upkeep and attitude of durability make it a stunning and reliable addition to any garden.",
+        "semantic_text": "Name: Golden Korean Fir. Scientific name: Abies koreana 'Aurea'. Other names: Unknown. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: North and South Korea. Watering: average. Sunlight: full sun; part shade. Soil: well-drained. Growth rate: low. Maintenance: moderate. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Seed Propagation; Air Layering Propagation. Attracts: Unknown. Pest susceptibility: aphids; adelgids; blight; needle cast; caterpillar; cutworm; root rot; rust; pest resistant; disease resistant; deer resistant; drought resistant. Trait: Produces flowers. Trait: Produces cones. Description: The Golden Korean Fir is truly awe inspiring. Its stunning golden-green foliage and soft pink cones make it a majestic wonder to behold. This evergreen tree grows quickly and is remarkably tough and resistant to brittleness. Its branches form a distinctive cone shape that gives it a modern, contemporary look. Its needles are soft and full of pleasant aroma. This amazing specimen requires minimal maintenance and is an ideal focal point for landscaping and garden design. Its unique foliage, easy upkeep and attitude of durability make it a stunning and reliable addition to any garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147dbc4003bac0c1d4e0"
+        },
+        "id": 7,
+        "common_name": "Alpine Fir",
+        "scientific_name": [
+            "Abies lasiocarpa"
+        ],
+        "other_name": [
+            "Subalpine Fir",
+            "Rocky Mountain Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "lasiocarpa",
+        "genus": "Abies",
+        "origin": [
+            "Canada",
+            "United States",
+            "Mexico",
+            "Guatemala",
+            "Honduras",
+            "El Salvador",
+            "Nicaragua",
+            "Costa Rica",
+            "Panama"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 70,
+                "max_value": 70,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Seed Propagation",
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Division"
+        ],
+        "hardiness": {
+            "min": 2,
+            "max": 2
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "green"
+                ]
+            },
+            {
+                "part": "buds",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "twig",
+                "color": [
+                    "silver-brown"
+                ]
+            },
+            {
+                "part": "bristles",
+                "color": [
+                    "green"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "silver-brown",
+                    "brown"
+                ]
+            },
+            {
+                "part": "needles",
+                "color": [
+                    "green"
+                ]
+            },
+            {
+                "part": "trunk",
+                "color": [
+                    "green-silver",
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "trunks",
+                "color": [
+                    "light-gray"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=7",
+        "soil": [
+            "loamy rocky"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Alpine Fir, scientifically known as Abies lasiocarpa, is an amazing conifer native to western North America. Its stiff, dense needles bring vivid color year-round and its pyramidal growth habit adds texture and interest to any landscape. With its tolerance to a variety of soils and conditions, this evergreen is both versatile and visually striking. Its branches reach out and cast a unique evergreen form of showy clouds. Through years of growth, it develops a sturdy trunk and crooked branches that are quite striking. Alpine Fir also provides winter cover and shelter for wildlife. Its dense needles are an ideal refuge from cold and precipitation. Its strong branches and trunk also provide perching points for nesting birds. Alpine Fir is truly one of nature’s most diverse and visually stunning plants.",
+        "semantic_text": "Name: Alpine Fir. Scientific name: Abies lasiocarpa. Other names: Subalpine Fir; Rocky Mountain Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Canada; United States; Mexico; Guatemala; Honduras; El Salvador; Nicaragua; Costa Rica; Panama. Watering: average. Sunlight: full sun; part shade. Soil: loamy rocky. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Seed Propagation; Cutting; Grafting Propagation; Layering Propagation; Division. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Produces flowers. Trait: Produces cones. Description: The Alpine Fir, scientifically known as Abies lasiocarpa, is an amazing conifer native to western North America. Its stiff, dense needles bring vivid color year-round and its pyramidal growth habit adds texture and interest to any landscape. With its tolerance to a variety of soils and conditions, this evergreen is both versatile and visually striking. Its branches reach out and cast a unique evergreen form of showy clouds. Through years of growth, it develops a sturdy trunk and crooked branches that are quite striking. Alpine Fir also provides winter cover and shelter for wildlife. Its dense needles are an ideal refuge from cold and precipitation. Its strong branches and trunk also provide perching points for nesting birds. Alpine Fir is truly one of nature’s most diverse and visually stunning plants."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147ebc4003bac0c1d4e1"
+        },
+        "id": 8,
+        "common_name": "Blue Spanish Fir",
+        "scientific_name": [
+            "Abies pinsapo 'Glauca'"
+        ],
+        "other_name": [
+            "Glaucous Spanish Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Glauca",
+        "variety": "Unknown",
+        "species_epithet": "pinsapo",
+        "genus": "Abies",
+        "origin": [
+            "Southern Spain"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 45,
+                "max_value": 45,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 7,
+            "max": 7
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "cones",
+                "color": [
+                    "green",
+                    "light-green"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green"
+                ]
+            },
+            {
+                "part": "stems",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "brown"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "March",
+            "April",
+            "June",
+            "July",
+            "August",
+            "May"
+        ],
+        "pruning_count": {
+            "amount": 2,
+            "interval": "yearly"
+        },
+        "seeds": false,
+        "maintenance": "moderate",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=8",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": true,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Blue Spanish Fir (Abies pinsapo 'Glauca') is an amazing plant that is native to the mountains of southern Spain. Its beautiful blue needle-like foliage and pyramidal shape set it apart from other coniferous trees. This tree is an extremely hardy species, and can survive temperatures as low as -20 Fahrenheit. It is also incredibly drought tolerant, but will thrive with regular watering in the summer. Its striking blue color makes it the perfect accent to any landscaping design, adding a pop of color to your garden. It is also surprisingly fast-growing, making it ideal for creating a privacy screen quickly. All in all, the Blue Spanish Fir is an amazing plant that can bring year-round beauty to any garden!",
+        "semantic_text": "Name: Blue Spanish Fir. Scientific name: Abies pinsapo 'Glauca'. Other names: Glaucous Spanish Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Southern Spain. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: moderate. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Drought tolerant. Trait: Salt tolerant. Trait: Produces flowers. Trait: Produces cones. Description: The Blue Spanish Fir (Abies pinsapo 'Glauca') is an amazing plant that is native to the mountains of southern Spain. Its beautiful blue needle-like foliage and pyramidal shape set it apart from other coniferous trees. This tree is an extremely hardy species, and can survive temperatures as low as -20 Fahrenheit. It is also incredibly drought tolerant, but will thrive with regular watering in the summer. Its striking blue color makes it the perfect accent to any landscaping design, adding a pop of color to your garden. It is also surprisingly fast-growing, making it ideal for creating a privacy screen quickly. All in all, the Blue Spanish Fir is an amazing plant that can bring year-round beauty to any garden!"
+    },
+    {
+        "_id": {
+            "$oid": "6a9f147fbc4003bac0c1d4e2"
+        },
+        "id": 9,
+        "common_name": "Noble Fir",
+        "scientific_name": [
+            "Abies procera"
+        ],
+        "other_name": [
+            "Red Fir",
+            "White Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "procera",
+        "genus": "Abies",
+        "origin": [
+            "United States",
+            "Canada",
+            "Mexico",
+            "Central America",
+            "South America"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 90,
+                "max_value": 90,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Squirrels",
+            "Birds"
+        ],
+        "propagation": [
+            "Seed Propagation",
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation"
+        ],
+        "hardiness": {
+            "min": 8,
+            "max": 8
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "brown",
+                    "light-brown",
+                    "white-brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green",
+                    "green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branch",
+                "color": [
+                    "brown"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=9",
+        "soil": [
+            "loamy rocky"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": true,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": true,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Noble Fir (Abies procera) is an amazing species in many ways. It is a tall and stately tree with a beautiful, conical shape; its symmetrical branches are heavily laden with needles that range from a deep, glossy green to a deep blue-green. It has a thick, scaly bark and splendid foliage that make it an ideal choice for any garden. Its wide, dense growth provides shelter to wildlife, while its strong branches provide it with excellent resistance to windstorms. The Noble Fir is a long-lasting species with impressive longevity, making it a great addition to any landscape. With its majestic form, lush color, and great strength, the Noble Fir is a remarkable species that will enhance any outdoor space.",
+        "semantic_text": "Name: Noble Fir. Scientific name: Abies procera. Other names: Red Fir; White Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: United States; Canada; Mexico; Central America; South America. Watering: average. Sunlight: full sun. Soil: loamy rocky. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Seed Propagation; Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation. Attracts: Squirrels; Birds. Pest susceptibility: Unknown. Trait: Produces flowers. Trait: Produces cones. Trait: Medicinal. Description: The Noble Fir (Abies procera) is an amazing species in many ways. It is a tall and stately tree with a beautiful, conical shape; its symmetrical branches are heavily laden with needles that range from a deep, glossy green to a deep blue-green. It has a thick, scaly bark and splendid foliage that make it an ideal choice for any garden. Its wide, dense growth provides shelter to wildlife, while its strong branches provide it with excellent resistance to windstorms. The Noble Fir is a long-lasting species with impressive longevity, making it a great addition to any landscape. With its majestic form, lush color, and great strength, the Noble Fir is a remarkable species that will enhance any outdoor space."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1480bc4003bac0c1d4e3"
+        },
+        "id": 10,
+        "common_name": "Johin Japanese Maple",
+        "scientific_name": [
+            "Acer 'Johin'"
+        ],
+        "other_name": [
+            "Red Full Moon Maple"
+        ],
+        "family": "Unknown",
+        "cultivar": "Johin",
+        "variety": "Unknown",
+        "species_epithet": "'Johin'",
+        "genus": "Acer",
+        "origin": [
+            "Japan"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 25,
+                "max_value": 25,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Air Layering Propagation",
+            "Grafting Propagation",
+            "Cutting",
+            "Division",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "bright-red"
+                ]
+            },
+            {
+                "part": "veins",
+                "color": [
+                    "yellow"
+                ]
+            },
+            {
+                "part": "stems",
+                "color": [
+                    "red"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=10",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Johin Japanese Maple (Acer 'Johin') is a one-of-a-kind variety with incredible foliage that's sure to turn heads. It stands out from the crowd with its bright yellow-green colored leaves, framed by a deep green margin. Mature trees usually have a beautiful, gnarled trunk, making it an ideal choice for bonsai enthusiasts. In the spring, its delicate white flowers add an extra layer of beauty, before the dramatic autumn hues of red, yellow and orange set in. It's an easy-to-care-for, slow-growing tree that becomes even more stunning with age. Perfect for home gardens, patio or courtyard spaces, it's no wonder the Johin Japanese Maple is so popular.",
+        "semantic_text": "Name: Johin Japanese Maple. Scientific name: Acer 'Johin'. Other names: Red Full Moon Maple. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: Japan. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Air Layering Propagation; Grafting Propagation; Cutting; Division; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Description: The Johin Japanese Maple (Acer 'Johin') is a one-of-a-kind variety with incredible foliage that's sure to turn heads. It stands out from the crowd with its bright yellow-green colored leaves, framed by a deep green margin. Mature trees usually have a beautiful, gnarled trunk, making it an ideal choice for bonsai enthusiasts. In the spring, its delicate white flowers add an extra layer of beauty, before the dramatic autumn hues of red, yellow and orange set in. It's an easy-to-care-for, slow-growing tree that becomes even more stunning with age. Perfect for home gardens, patio or courtyard spaces, it's no wonder the Johin Japanese Maple is so popular."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1480bc4003bac0c1d4e4"
+        },
+        "id": 11,
+        "common_name": "Snakebark Maple",
+        "scientific_name": [
+            "Acer davidii"
+        ],
+        "other_name": [
+            "Father David's Maple",
+            "Pere David's Maple"
+        ],
+        "family": "Sapindaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "davidii",
+        "genus": "Acer",
+        "origin": [
+            "China",
+            "Myanmar"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 25,
+                "max_value": 25,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Cutting",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 3,
+            "max_days": 4
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "yellow-brown",
+                    "green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "green-brown",
+                    "light-green",
+                    "green"
+                ]
+            },
+            {
+                "part": "trunk",
+                "color": [
+                    "green-brown",
+                    "white-green"
+                ]
+            },
+            {
+                "part": "stem",
+                "color": [
+                    "green-colored"
+                ]
+            },
+            {
+                "part": "veins",
+                "color": [
+                    "light-green"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "low",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=11",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": true,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": true,
+        "flowering_season": "Spring",
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": true,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Snakebark Maple (Acer davidii) is an amazing tree, beloved by gardeners. It features beautiful gills, which are handsomely striped with tiger-like markings. In the summer, its leaves turn to a bright golden hue and its bark remains smooth, with a distinctive mottled ash-gray coloration. Plant it in a sunny spot to take full advantage of its leaves, which are said to produce a calming effect. It is also low maintenance and very tolerant of the cold, surviving through temperatures as low as -25°F. With its stunning shape and amazing color, the Snakebark Maple is a wonderful addition to any landscape!",
+        "semantic_text": "Name: Snakebark Maple. Scientific name: Acer davidii. Other names: Father David's Maple; Pere David's Maple. Family: Sapindaceae. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: China; Myanmar. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: low. Care level: medium. Propagation: Grafting Propagation; Layering Propagation; Cutting; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Flowering season: Spring. Trait: Drought tolerant. Trait: Invasive. Trait: Produces flowers. Trait: Medicinal. Description: The Snakebark Maple (Acer davidii) is an amazing tree, beloved by gardeners. It features beautiful gills, which are handsomely striped with tiger-like markings. In the summer, its leaves turn to a bright golden hue and its bark remains smooth, with a distinctive mottled ash-gray coloration. Plant it in a sunny spot to take full advantage of its leaves, which are said to produce a calming effect. It is also low maintenance and very tolerant of the cold, surviving through temperatures as low as -25°F. With its stunning shape and amazing color, the Snakebark Maple is a wonderful addition to any landscape!"
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1481bc4003bac0c1d4e5"
+        },
+        "id": 12,
+        "common_name": "Amur Maple",
+        "scientific_name": [
+            "Acer ginnala"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "ginnala",
+        "genus": "Acer",
+        "origin": [
+            "China",
+            "North Korea",
+            "Russia",
+            "Mongolia"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 2,
+            "max": 2
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "value": null,
+            "unit": "days"
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "orange-pink",
+                    "green"
+                ]
+            },
+            {
+                "part": "veins",
+                "color": [
+                    "red",
+                    "yellow"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "dark-red",
+                    "green"
+                ]
+            },
+            {
+                "part": "trunk",
+                "color": [
+                    "silver"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "silver"
+                ]
+            },
+            {
+                "part": "seeds",
+                "color": [
+                    "pink"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=12",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": true,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "moderate",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Amur Maple is a beautiful and versatile species of tree that are perfect for any property. With its vibrant green buds and star-shaped leaves that turn yellow and orange in the autumn, this stunning tree makes for a spectacular backdrop in any yard or garden. Its dense growth provides ample shade and its smaller size means it won't take up too much space. The Amur Maple is also highly resilient, resistant to extreme temperatures and insect diseases and does well in most soils. This hardy and majestic tree will bring years of beauty to your lawn and garden.",
+        "semantic_text": "Name: Amur Maple. Scientific name: Acer ginnala. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: China; North Korea; Russia; Mongolia. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Care level: moderate. Propagation: Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Drought tolerant. Trait: Invasive. Description: The Amur Maple is a beautiful and versatile species of tree that are perfect for any property. With its vibrant green buds and star-shaped leaves that turn yellow and orange in the autumn, this stunning tree makes for a spectacular backdrop in any yard or garden. Its dense growth provides ample shade and its smaller size means it won't take up too much space. The Amur Maple is also highly resilient, resistant to extreme temperatures and insect diseases and does well in most soils. This hardy and majestic tree will bring years of beauty to your lawn and garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1482bc4003bac0c1d4e6"
+        },
+        "id": 13,
+        "common_name": "Flame Amur Maple",
+        "scientific_name": [
+            "Acer ginnala 'Flame'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Flame",
+        "variety": "Unknown",
+        "species_epithet": "ginnala",
+        "genus": "Acer",
+        "origin": [
+            "China",
+            "North Korea",
+            "Russia",
+            "Japan"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Stooling",
+            "Root Division"
+        ],
+        "hardiness": {
+            "min": 3,
+            "max": 3
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "yellow-orange"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April",
+            "May"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=13",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "high",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "moderate",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Flame Amur Maple is an amazing plant species perfect for any landscape. It's small to medium size, with a mature height of 15 to 20 feet, makes it perfect for tight spaces in gardens, parks, or yards. Its bright orange-red buds make a striking statement in the spring, and its leaves are a beautiful deep green in summer. In fall, the foliage turns a striking array of red, yellow and orange colors giving a brilliant splash to the landscape. It's very hardy, tolerating most soil types, and can adapt to various climates, making it a great addition to any home garden.",
+        "semantic_text": "Name: Flame Amur Maple. Scientific name: Acer ginnala 'Flame'. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: China; North Korea; Russia; Japan. Watering: frequent. Sunlight: full sun. Soil: Unknown. Growth rate: high. Maintenance: Unknown. Care level: moderate. Propagation: Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation; Stooling; Root Division. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Drought tolerant. Description: The Flame Amur Maple is an amazing plant species perfect for any landscape. It's small to medium size, with a mature height of 15 to 20 feet, makes it perfect for tight spaces in gardens, parks, or yards. Its bright orange-red buds make a striking statement in the spring, and its leaves are a beautiful deep green in summer. In fall, the foliage turns a striking array of red, yellow and orange colors giving a brilliant splash to the landscape. It's very hardy, tolerating most soil types, and can adapt to various climates, making it a great addition to any home garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1482bc4003bac0c1d4e7"
+        },
+        "id": 14,
+        "common_name": "Red Rhapsody Amur Maple",
+        "scientific_name": [
+            "Acer ginnala 'Mondy'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Mondy",
+        "variety": "Unknown",
+        "species_epithet": "ginnala",
+        "genus": "Acer",
+        "origin": [
+            "China"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Tissue Culture"
+        ],
+        "hardiness": {
+            "min": 2,
+            "max": 2
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "dark-brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "green-yellow"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": {
+            "amount": 1,
+            "interval": "yearly"
+        },
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=14",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "high",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "moderate",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Red Rhapsody Amur Maple (Acer ginnala ‘Mondy’) is a stunning and unique addition to any garden. With its brilliant red foliage, this maple species is a captivating sight in the spring and fall. The tree is also not as large as other maple varieties, making it an ideal choice for small gardens and yards. It thrives in varied soil conditions and can survive temperatures down to -30F. This resilient tree can last for many years and provides welcome shade during the warm summer months. The Red Rhapsody Amur Maple is a stunning and unique tree for any garden and promises a vibrant splash of color throughout the entire year.",
+        "semantic_text": "Name: Red Rhapsody Amur Maple. Scientific name: Acer ginnala 'Mondy'. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: China. Watering: frequent. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: high. Maintenance: Unknown. Care level: moderate. Propagation: Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation; Tissue Culture. Attracts: Unknown. Pest susceptibility: Unknown. Description: The Red Rhapsody Amur Maple (Acer ginnala ‘Mondy’) is a stunning and unique addition to any garden. With its brilliant red foliage, this maple species is a captivating sight in the spring and fall. The tree is also not as large as other maple varieties, making it an ideal choice for small gardens and yards. It thrives in varied soil conditions and can survive temperatures down to -30F. This resilient tree can last for many years and provides welcome shade during the warm summer months. The Red Rhapsody Amur Maple is a stunning and unique tree for any garden and promises a vibrant splash of color throughout the entire year."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1483bc4003bac0c1d4e8"
+        },
+        "id": 15,
+        "common_name": "Ruby Slippers Amur Maple",
+        "scientific_name": [
+            "Acer ginnala 'Ruby Slippers'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Ruby Slippers",
+        "variety": "Unknown",
+        "species_epithet": "ginnala",
+        "genus": "Acer",
+        "origin": [
+            "China"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Root Division"
+        ],
+        "hardiness": {
+            "min": 3,
+            "max": 3
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunks",
+                "color": [
+                    "silver-green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "silver-green"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "silver-green"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "yellow"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "May",
+            "June",
+            "July"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=15",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": null,
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "Ruby Slippers Amur Maple is an amazing plant species that can survive in extreme conditions. It has a unique vertical habit, clockwise foliage, and bright red stems which makes it a great ornamental tree. Its deep green summer foliage with a pattern of creamy white margins, plus its eye-catching red stem color in the fall and winter give this plant unique beauty. It is fast-growing and tolerates extreme heat, drought, and cold temperatures. It also thrives in a variety of soils and can handle little maintenance. So, Ruby Slippers Amur Maple is an amazing species to have in your garden, adding beauty and color all year round.",
+        "semantic_text": "Name: Ruby Slippers Amur Maple. Scientific name: Acer ginnala 'Ruby Slippers'. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: China. Watering: frequent. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Propagation: Cutting; Grafting Propagation; Layering Propagation; Air Layering Propagation; Root Division. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Drought tolerant. Description: Ruby Slippers Amur Maple is an amazing plant species that can survive in extreme conditions. It has a unique vertical habit, clockwise foliage, and bright red stems which makes it a great ornamental tree. Its deep green summer foliage with a pattern of creamy white margins, plus its eye-catching red stem color in the fall and winter give this plant unique beauty. It is fast-growing and tolerates extreme heat, drought, and cold temperatures. It also thrives in a variety of soils and can handle little maintenance. So, Ruby Slippers Amur Maple is an amazing species to have in your garden, adding beauty and color all year round."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1484bc4003bac0c1d4e9"
+        },
+        "id": 16,
+        "common_name": "Paperbark Maple",
+        "scientific_name": [
+            "Acer griseum"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Sapindaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "griseum",
+        "genus": "Acer",
+        "origin": [
+            "Central and eastern China"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 30,
+                "max_value": 30,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Seed Propagation",
+            "Greenwood Cuttings",
+            "Hardwood Cuttings"
+        ],
+        "hardiness": {
+            "min": 5,
+            "max": 5
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 3,
+            "max_days": 4
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "dark-green",
+                    "light-green"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "March",
+            "April",
+            "August"
+        ],
+        "pruning_count": {
+            "amount": 2,
+            "interval": "yearly"
+        },
+        "seeds": false,
+        "maintenance": "low",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=16",
+        "soil": [
+            "acidic",
+            "well-drained"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "galls",
+            "heart rot",
+            "mites",
+            "root rot",
+            "pest resistant",
+            "disease resistant"
+        ],
+        "flowers": true,
+        "flowering_season": "Spring",
+        "cones": false,
+        "fruits": true,
+        "edible_fruit": false,
+        "harvest_season": "Fall",
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "Paperbark Maple (Acer griseum) is a truly amazing tree. With its unique cinnamon-color bark that peels in thin layers and its delicate foliage, it is a sight to behold in any garden. In spring, the tree features delicate pink and white flowers. The foliage turns a copper-bronze color in the fall, making it a great ornamental tree year-round. Paperbark Maple is also low-maintenance and easy to grow, making it an ideal choice for a sheltered spot in your garden. It is also a great option for a screen near a patio or pool. The Paperbark Maple is a beautiful and versatile must-have for any garden.",
+        "semantic_text": "Name: Paperbark Maple. Scientific name: Acer griseum. Other names: Unknown. Family: Sapindaceae. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: Central and eastern China. Watering: average. Sunlight: full sun; part shade. Soil: acidic; well-drained. Growth rate: low. Maintenance: low. Care level: medium. Propagation: Seed Propagation; Greenwood Cuttings; Hardwood Cuttings. Attracts: Unknown. Pest susceptibility: galls; heart rot; mites; root rot; pest resistant; disease resistant. Flowering season: Spring. Trait: Produces flowers. Trait: Produces fruit. Description: Paperbark Maple (Acer griseum) is a truly amazing tree. With its unique cinnamon-color bark that peels in thin layers and its delicate foliage, it is a sight to behold in any garden. In spring, the tree features delicate pink and white flowers. The foliage turns a copper-bronze color in the fall, making it a great ornamental tree year-round. Paperbark Maple is also low-maintenance and easy to grow, making it an ideal choice for a sheltered spot in your garden. It is also a great option for a screen near a patio or pool. The Paperbark Maple is a beautiful and versatile must-have for any garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1484bc4003bac0c1d4ea"
+        },
+        "id": 17,
+        "common_name": "Fullmoon Maple",
+        "scientific_name": [
+            "Acer japonicum"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Sapindaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "japonicum",
+        "genus": "Acer",
+        "origin": [
+            "Japan",
+            "Kuril Islands"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Air Layering Propagation",
+            "Grafting Propagation",
+            "Cutting",
+            "Division",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 3,
+            "max_days": 4
+        },
+        "plant_anatomy": [
+            {
+                "part": "branches",
+                "color": [
+                    "green-yellow"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "green-yellow"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "green"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April",
+            "May"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "low",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=17",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": true,
+        "flowering_season": "Spring",
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Fullmoon Maple is a spectacular deciduous shrub native to Japan, Korea and parts of China. It features an incredible round, bright yellow foliage in spring and summer that turns rich oranges and reds in the fall. Its unique shape gives it a wonderful presence in the garden, while its attractive bark is marked with orange and dark brown hues. For added attraction in the garden, the Fullmoon Maple is renowned for its stunning white flowers with yellow centers, which bloom from late spring until early summer. Its beautiful foliage, stunning flowers and interesting bark make the Fullmoon Maple an amazing garden addition for any landscape.",
+        "semantic_text": "Name: Fullmoon Maple. Scientific name: Acer japonicum. Other names: Unknown. Family: Sapindaceae. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: Japan; Kuril Islands. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: low. Care level: medium. Propagation: Air Layering Propagation; Grafting Propagation; Cutting; Division; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Flowering season: Spring. Trait: Drought tolerant. Trait: Produces flowers. Description: The Fullmoon Maple is a spectacular deciduous shrub native to Japan, Korea and parts of China. It features an incredible round, bright yellow foliage in spring and summer that turns rich oranges and reds in the fall. Its unique shape gives it a wonderful presence in the garden, while its attractive bark is marked with orange and dark brown hues. For added attraction in the garden, the Fullmoon Maple is renowned for its stunning white flowers with yellow centers, which bloom from late spring until early summer. Its beautiful foliage, stunning flowers and interesting bark make the Fullmoon Maple an amazing garden addition for any landscape."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1485bc4003bac0c1d4eb"
+        },
+        "id": 18,
+        "common_name": "Cutleaf Fullmoon Maple",
+        "scientific_name": [
+            "Acer japonicum 'Aconitifolium'"
+        ],
+        "other_name": [
+            "fernleaf full moon maple"
+        ],
+        "family": "Sapindaceae",
+        "cultivar": "Aconitifolium",
+        "variety": "Unknown",
+        "species_epithet": "japonicum",
+        "genus": "Acer",
+        "origin": [
+            "S.E. Asia",
+            "Japan",
+            "China"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            {
+                "part": "leaves",
+                "color": [
+                    "green",
+                    "orange-yellow-green"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "trunk",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "twigs",
+                "color": [
+                    "colored"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "March",
+            "April",
+            "June",
+            "July",
+            "August"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "low",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=18",
+        "soil": [
+            "humus rich",
+            "well-drained"
+        ],
+        "growth_rate": "moderate",
+        "drought_tolerant": true,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "aphids",
+            "adelgids",
+            "canker",
+            "sap rot",
+            "caterpillar",
+            "cutworm",
+            "fungal leaf spot",
+            "galls",
+            "heart rot",
+            "mites",
+            "root rot",
+            "scale insects",
+            "wilt"
+        ],
+        "flowers": true,
+        "flowering_season": "Spring",
+        "cones": false,
+        "fruits": true,
+        "edible_fruit": false,
+        "harvest_season": "Fall",
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Cutleaf Fullmoon Maple is one of nature's most beautiful trees. Its intricate, delicate leaves have deep lobes and unique lobing patterns- each one showing its own distinct character. Its light silvery-green foliage turns a golden yellow in fall. The Cutleaf Fullmoon Maple produces long, elegant branches with large, full flowers that shimmer in the moonlight. In spring, the foliage emerges in a brilliant array of soft pinks, whites, and yellows. This eye-catching display gives this tree its name- Cutleaf Fullmoon Maple. Combined with beautiful bark that takes on an attractive whitish hue, this tree is sure to be a stunning addition to any garden.",
+        "semantic_text": "Name: Cutleaf Fullmoon Maple. Scientific name: Acer japonicum 'Aconitifolium'. Other names: fernleaf full moon maple. Family: Sapindaceae. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: S.E. Asia; Japan; China. Watering: average. Sunlight: full sun; part shade. Soil: humus rich; well-drained. Growth rate: moderate. Maintenance: low. Care level: medium. Propagation: Cutting; Grafting Propagation. Attracts: Unknown. Pest susceptibility: aphids; adelgids; canker; sap rot; caterpillar; cutworm; fungal leaf spot; galls; heart rot; mites; root rot; scale insects; wilt. Flowering season: Spring. Trait: Drought tolerant. Trait: Produces flowers. Trait: Produces fruit. Description: The Cutleaf Fullmoon Maple is one of nature's most beautiful trees. Its intricate, delicate leaves have deep lobes and unique lobing patterns- each one showing its own distinct character. Its light silvery-green foliage turns a golden yellow in fall. The Cutleaf Fullmoon Maple produces long, elegant branches with large, full flowers that shimmer in the moonlight. In spring, the foliage emerges in a brilliant array of soft pinks, whites, and yellows. This eye-catching display gives this tree its name- Cutleaf Fullmoon Maple. Combined with beautiful bark that takes on an attractive whitish hue, this tree is sure to be a stunning addition to any garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1485bc4003bac0c1d4ec"
+        },
+        "id": 19,
+        "common_name": "Attaryi Fullmoon Maple*",
+        "scientific_name": [
+            "Acer japonicum 'Attaryi'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Attaryi",
+        "variety": "Unknown",
+        "species_epithet": "japonicum",
+        "genus": "Acer",
+        "origin": [
+            "Japan"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 30,
+                "max_value": 30,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Grafting Propagation",
+            "Cutting",
+            "Layering Propagation",
+            "Air Layering Propagation",
+            "Tissue Culture"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "value": null,
+            "unit": "days"
+        },
+        "plant_anatomy": [
+            {
+                "part": "trunk",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "branches",
+                "color": [
+                    "brown"
+                ]
+            },
+            {
+                "part": "leaves",
+                "color": [
+                    "orange"
+                ]
+            }
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February"
+        ],
+        "pruning_count": {
+            "amount": 1,
+            "interval": "yearly"
+        },
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=19",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "high",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "high",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "Attaryi Fullmoon Maple is an amazing ornamental tree that provides breathtaking visual impact throughout the year. Its young foliage emerges a bright pink hue in spring, fades to a golden yellow in summer and transforms to a spectacular burnt orange in autumn. This spectacular show, combined with the graceful weeping branches and deep mahogany bark, makes it an ideal focal point in outdoor landscapes. Attaryi Fullmoon Maple is also known for its drought tolerance, making it an adaptable choice for gardeners of all levels. Best of all, its ability to thrive in just about any soil and pH makes it an excellent addition to any garden.",
+        "semantic_text": "Name: Attaryi Fullmoon Maple*. Scientific name: Acer japonicum 'Attaryi'. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: Japan. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: high. Maintenance: Unknown. Care level: high. Propagation: Grafting Propagation; Cutting; Layering Propagation; Air Layering Propagation; Tissue Culture. Attracts: Unknown. Pest susceptibility: Unknown. Description: Attaryi Fullmoon Maple is an amazing ornamental tree that provides breathtaking visual impact throughout the year. Its young foliage emerges a bright pink hue in spring, fades to a golden yellow in summer and transforms to a spectacular burnt orange in autumn. This spectacular show, combined with the graceful weeping branches and deep mahogany bark, makes it an ideal focal point in outdoor landscapes. Attaryi Fullmoon Maple is also known for its drought tolerance, making it an adaptable choice for gardeners of all levels. Best of all, its ability to thrive in just about any soil and pH makes it an excellent addition to any garden."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1486bc4003bac0c1d4ed"
+        },
+        "id": 20,
+        "common_name": "Golden Fullmoon Maple",
+        "scientific_name": [
+            "Acer japonicum 'Aureum'"
+        ],
+        "other_name": [
+            "Unknown"
+        ],
+        "family": "Unknown",
+        "cultivar": "Aureum",
+        "variety": "Unknown",
+        "species_epithet": "japonicum",
+        "genus": "Acer",
+        "origin": [
+            "Japan"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 20,
+                "max_value": 20,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Air Layering Propagation",
+            "Grafting Propagation",
+            "Cutting",
+            "Division",
+            "Seed Propagation"
+        ],
+        "hardiness": {
+            "min": 6,
+            "max": 6
+        },
+        "watering": "average",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            "Unknown"
+        ],
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=20",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "low",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": false,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": false,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "The Golden Fullmoon Maple is an amazing plant species due to its dazzling yellow-gold leaves, which scintillate in the sun. This tree is a sight to behold, especially in autumn, when the leaves turn a richer golden color. Its bark is smooth and light in color and its branches are gently curved and attractively shaped. This species of maple is easy to grow and thrives in full sun or partial shade, along with well-drained, fertile soil. It is also resistant to most pests and diseases, making it an ideal choice for the garden or backyard. With its graceful form and beautiful leaves, the Golden Fullmoon Maple is truly a stand-out in the landscape.",
+        "semantic_text": "Name: Golden Fullmoon Maple. Scientific name: Acer japonicum 'Aureum'. Other names: Unknown. Family: Unknown. Genus: Acer. Plant type: tree. Life cycle: perennial. Origin: Japan. Watering: average. Sunlight: full sun; part shade. Soil: Unknown. Growth rate: low. Maintenance: Unknown. Care level: medium. Propagation: Air Layering Propagation; Grafting Propagation; Cutting; Division; Seed Propagation. Attracts: Unknown. Pest susceptibility: Unknown. Description: The Golden Fullmoon Maple is an amazing plant species due to its dazzling yellow-gold leaves, which scintillate in the sun. This tree is a sight to behold, especially in autumn, when the leaves turn a richer golden color. Its bark is smooth and light in color and its branches are gently curved and attractively shaped. This species of maple is easy to grow and thrives in full sun or partial shade, along with well-drained, fertile soil. It is also resistant to most pests and diseases, making it an ideal choice for the garden or backyard. With its graceful form and beautiful leaves, the Golden Fullmoon Maple is truly a stand-out in the landscape."
+    },
+    {
+        "_id": {
+            "$oid": "6a9f1432a4e22935e28ad0b5"
+        },
+        "id": 1,
+        "common_name": "European Silver Fir",
+        "scientific_name": [
+            "Abies alba"
+        ],
+        "other_name": [
+            "Common Silver Fir"
+        ],
+        "family": "Pinaceae",
+        "cultivar": "Unknown",
+        "variety": "Unknown",
+        "species_epithet": "alba",
+        "genus": "Abies",
+        "origin": [
+            "Austria",
+            "Germany",
+            "Switzerland",
+            "France",
+            "Italy",
+            "Slovenia",
+            "Croatia",
+            "Bosnia and Herzegovina",
+            "Serbia",
+            "Montenegro",
+            "Albania",
+            "Bulgaria",
+            "Romania",
+            "Ukraine",
+            "Poland",
+            "Czech Republic",
+            "Slovakia",
+            "Hungary"
+        ],
+        "type": "tree",
+        "dimensions": [
+            {
+                "type": "Height",
+                "min_value": 60,
+                "max_value": 60,
+                "unit": "feet"
+            }
+        ],
+        "cycle": "perennial",
+        "attracts": [
+            "Unknown"
+        ],
+        "propagation": [
+            "Cutting",
+            "Grafting Propagation",
+            "Layering Propagation",
+            "Seed Propagation",
+            "Air Layering Propagation",
+            "Tissue Culture"
+        ],
+        "hardiness": {
+            "min": 7,
+            "max": 7
+        },
+        "watering": "frequent",
+        "watering_general_benchmark": {
+            "min_days": 7,
+            "max_days": 10
+        },
+        "plant_anatomy": [
+            "Unknown"
+        ],
+        "sunlight": [
+            "full sun"
+        ],
+        "pruning_month": [
+            "February",
+            "March",
+            "April"
+        ],
+        "pruning_count": [
+            "Unknown"
+        ],
+        "seeds": false,
+        "maintenance": "Unknown",
+        "care_guides": "http://perenual.com/api/species-care-guide-list?species_id=1",
+        "soil": [
+            "Unknown"
+        ],
+        "growth_rate": "high",
+        "drought_tolerant": false,
+        "salt_tolerant": false,
+        "thorny": false,
+        "invasive": false,
+        "tropical": false,
+        "indoor": false,
+        "care_level": "medium",
+        "pest_susceptibility": [
+            "Unknown"
+        ],
+        "flowers": false,
+        "flowering_season": null,
+        "cones": true,
+        "fruits": false,
+        "edible_fruit": false,
+        "harvest_season": null,
+        "leaf": true,
+        "edible_leaf": false,
+        "cuisine": false,
+        "medicinal": true,
+        "poisonous_to_humans": false,
+        "poisonous_to_pets": false,
+        "description": "European Silver Fir (Abies alba) is an amazing coniferous species native to mountainous regions of central Europe and the Balkans. It is an evergreen tree with a narrow, pyramidal shape and long, soft needles. Its bark is scaly grey-brown and its branches are highly ornamental due to its conical-shaped silver-tinged needles. It is pruned for use as an ornamental evergreen hedging and screening plant, and is also popular for use as a Christmas tree. Young trees grow quickly and have strong, flexible branches which makes them perfect for use as windbreaks. The European Silver Fir is an impressive species, making it ideal for gardens and public spaces.",
+        "semantic_text": "Name: European Silver Fir. Scientific name: Abies alba. Other names: Common Silver Fir. Family: Pinaceae. Genus: Abies. Plant type: tree. Life cycle: perennial. Origin: Austria; Germany; Switzerland; France; Italy; Slovenia; Croatia; Bosnia and Herzegovina; Serbia; Montenegro; Albania; Bulgaria; Romania; Ukraine; Poland; Czech Republic; Slovakia; Hungary. Watering: frequent. Sunlight: full sun. Soil: Unknown. Growth rate: high. Maintenance: Unknown. Care level: medium. Propagation: Cutting; Grafting Propagation; Layering Propagation; Seed Propagation; Air Layering Propagation; Tissue Culture. Attracts: Unknown. Pest susceptibility: Unknown. Trait: Produces cones. Trait: Medicinal. Description: European Silver Fir (Abies alba) is an amazing coniferous species native to mountainous regions of central Europe and the Balkans. It is an evergreen tree with a narrow, pyramidal shape and long, soft needles. Its bark is scaly grey-brown and its branches are highly ornamental due to its conical-shaped silver-tinged needles. It is pruned for use as an ornamental evergreen hedging and screening plant, and is also popular for use as a Christmas tree. Young trees grow quickly and have strong, flexible branches which makes them perfect for use as windbreaks. The European Silver Fir is an impressive species, making it ideal for gardens and public spaces."
+    }
+]
