@@ -59,8 +59,67 @@ python main.py
 The `.env` file contains a secret and should not be committed to Git.
 
 ## Processes
-### ETL
+### ETL Pipeline
+<br>
+
+<img src="presentation/ETL-pipeline.png" alt="ETL pipeline" width="1350">
+
+<br>
+
+The project implements a complete ETL pipeline to retrieve plant data from an external API, clean and transform the data, and load the resulting dataset into an AWS S3 bucket for downstream search and RAG applications.
+
+### Extract
+
+The plant data was extracted from two Perenual API endpoints:
+
+- Species list: `https://perenual.com/api/v2/species-list`
+- Species detail: `https://perenual.com/api/v2/species/details/[ID]`
+
+
+> **Extraction considerations**
+>
+> - **30 plants per page** from the species-list endpoint.
+> - **Separate API request** required for each plant's detailed information.
+> - **100 API requests/day limit**, so data extraction had to be incremental.
+>   - Pipeline **tracks the last page and plant processed** to resume across multiple runs.
+>   - Raw API data is stored in **MongoDB** in separate species and detail collections.
+>   - A **metadata collection tracks extraction progress and history**.
+>   - This makes the pipeline **resumable and repeatable** without losing previously collected data.
+
+### Transform
+
+The raw datasets were cleaned and normalized while preserving the original plant information. The transformation included:
+
+- Removing unnecessary whitespace and duplicate list values.
+- Standardizing categorical values such as sunlight, watering, soil and maintenance.
+- Converting numeric values, such as hardiness ratings, from strings to numbers.
+- Converting watering ranges into structured numeric fields.
+- Removing API subscription messages, credentials, unnecessary URLs and HTML that did not describe the plant.
+- Preserving missing values as `null` rather than replacing them with misleading defaults.
+- Keeping the species and detailed species datasets separate while preserving their relationship through plant IDs.
+
+For a detailed explanation of the cleaning decisions and their rationale, see [`rationale.md`](rationale.md).
+
+The cleaned dataset is then stored in a `species_search` collection in MongoDB.
+
+
+### Load
+
+The cleaned `species_search` collection from MongoDB is exported as JSON to:
+
+`outputs/species_search.json`
+
+The resulting JSON dataset is then uploaded to AWS S3:
+
+- **S3 Bucket:** `se-data-with-ai-etl-project`
+- **Key:** `plants_101/species_search.json`
+
+This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
+
 ### Semantic Search
+
+A separate `semantic_search` dataset was then created by logically joining the cleaned datasets. Each plant was represented using a natural-language `semantic_text` field for embeddings, alongside structured metadata for exact filtering. This creates a dataset suitable for semantic search, vector search and future hybrid search.
+
 ### RAG
 
 ## Lessons learnt
@@ -68,3 +127,4 @@ The `.env` file contains a secret and should not be committed to Git.
 ## Strong for employers
 
 ## Conclusion
+
