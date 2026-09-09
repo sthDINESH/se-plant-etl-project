@@ -28,7 +28,7 @@ SBERT_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
 
 # Configuration to selectively enable different ETL stages
 CONFIG = {
-    'EXTRACT': False,
+    'EXTRACT': True,
     'TRANSFORM': True,
     'LOAD': True,
 }
