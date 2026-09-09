@@ -75,7 +75,7 @@ The project implements a complete ETL pipeline to retrieve plant data from an ex
 
 <br>
 
-### Extract
+### API Endpoints
 
 The plant data was extracted from two Perenual API endpoints:
 
@@ -147,17 +147,18 @@ The goal was to allow users to describe what they are looking for in natural lan
 
 #### Dataset preparation
 
-- For each plant, a `semantic_text` field was created containing the most useful natural-language information about the plant. 
-- Structured fields were retained separately from `semantic_text`. This allows the system to distinguish between:
-    - **Semantic information** that are useful for understanding the meaning of a query.
-    - **Structured metadata** that can be used for filtering or refining search results.
+🌱 For each plant, a `semantic_text` field was created containing the most useful natural-language information about the plant.<br>
+🌱 Structured fields were retained separately from `semantic_text`. This allows the system to distinguish between:<br>
+    - **Semantic information** that are useful for understanding the meaning of a query.<br>
+    - **Structured metadata** that can be used for filtering or refining search results.<br>
 
 This separation provides the foundation for combining semantic similarity with traditional metadata filtering.
 
 #### Embeddings
 
-- The `semantic_text` for each plant is converted into a numerical vector representation called an **embedding**.
-- Model used:
+🌱 The `semantic_text` for each plant is converted into a numerical vector representation called an **embedding**.
+
+🌱 Model used:
     - `sentence-transformers/all-MiniLM-L6-v2`
 
 
@@ -169,11 +170,36 @@ This separation provides the foundation for combining semantic similarity with t
 
 #### Vector search
 
-- Natural-language user query is also converted into an embedding using the same model. 
-- The query embedding can then be compared with the plant embeddings to identify the plants that are most semantically similar to what the user is looking for.
+🌱 Natural-language user query is also converted into an embedding using the same model.<br>
+🌱 The query embedding can then be compared with the plant embeddings to identify the plants that are most semantically similar to what the user is looking for.
 
 
 ### RAG
+
+The RAG component combines the semantic search system with a large language model to provide **data-driven, natural-language answers**.
+
+🌱 The query is converted into an embedding.<br>
+🌱 Relevant plant information is retrieved using semantic similarity.<br>
+🌱 The retrieved data is provided to the language model as context.<br>
+🌱 The model generates an answer based on the retrieved plant information.<br>
+
+
+<br>
+
+<img src="presentation/RAG.png" alt="Semantic search pipeline" width="1000">
+
+<br>
+
+#### LLM model
+🌱 gemini-3.5-flash<br>
+
+> **LLM considerations**
+>
+> - **Gemini 3.5 Flash** was selected for its balance of **capability, speed and cost**, making it well suited to this RAG application.
+> - Gemini provides a **free API tier with free input and output tokens** for supported models, making it suitable for a project where API costs need to be minimised.
+> - OpenAI and Anthropic also provide developer APIs, but their standard API usage is primarily **usage-based and paid**, with more limited free credits or trials.
+> - **Ollama** was considered as a local alternative. While it avoids API costs, it requires local hardware to run the model and can introduce additional performance and setup requirements.
+
 
 ## Lessons learnt
 ## Future enhancements
