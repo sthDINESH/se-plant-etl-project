@@ -43,7 +43,7 @@ Install the project dependencies:
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the project root and add your Perenual API key:
+Create a `.env` file in the project root, add your API keys and AWS profile if not `default` :
 
 ```env
 PERENUAL_API_KEY=your_real_perenual_api_key
@@ -53,11 +53,40 @@ AWS_PROFILE=your_aws_profile(if not default)
 
 Run the application:
 
+1. ETL pipeline
+
 ```bash
-python main.py
+python3 etl.py
 ```
 
-The `.env` file contains a secret and should not be committed to Git.
+2. Semantic search 
+
+```bash
+python3 semantic_search.py
+```
+
+3. RAG (Terminal application)
+
+```bash
+python3 rag_search.py
+```
+
+4. RAG (Web UI)
+
+```bash
+python3 app.py
+```
+
+Check the terminal messages for the `localhost` port the website is available on. 
+
+For Example
+```
+* Running on http://127.0.0.1:5000
+```
+
+> **Note**
+>
+> - `.env` file contains a secret and should not be committed to Git.
 
 <br>
 
