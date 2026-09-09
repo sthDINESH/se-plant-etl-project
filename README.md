@@ -1,4 +1,4 @@
-<img src="presentation/Plants101-banner.png" alt="Plant Data Pipeline Banner" width="1350" height="120">
+<img src="presentation/Plants101-banner.png" alt="Plant Data Pipeline Banner">
 
 ## Introduction
 
