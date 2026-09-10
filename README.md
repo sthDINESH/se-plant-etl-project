@@ -253,9 +253,76 @@ The RAG component combines the semantic search system with a large language mode
 
 <br>
 
-## Lessons learnt
-## Future enhancements
-## Strong for employers
+# Future Vision: Where We Would Take the Project Next
 
-## Conclusion
+## Slide 1: What Would We Do Differently Next Time?
+
+### Main Improvements
+
+**Data**  
+Use a larger open dataset without restrictive API limits.
+
+**ETL**  
+Automate extraction, cleaning, transformation and loading.
+
+**Deployment**  
+Introduce Docker earlier for a consistent environment.
+
+**UI**  
+Improve the existing interface with better filtering and clearer AI-assisted results.
+
+### Why This Matters
+
+- More data improves testing of semantic search and RAG.
+- Automation reduces manual work and errors.
+- Docker improves setup and consistency.
+- UI improvements make results easier to use.
+
+> **Key takeaway:** Make the project more scalable, automated and user-friendly.
+
+---
+
+## Slide 2: Why Is This Strong for Employers?
+
+### What We Worked Across
+
+`Python` • `External APIs` • `JSON` • `MongoDB` • `ETL` • `Data Cleaning` • `Amazon S3` • `Sentence Transformers` • `Embeddings` • `FAISS` • `Semantic Search` • `RAG` • `UI`
+
+### What This Demonstrates
+
+- End-to-end problem solving
+- Data engineering and AI integration
+- Connecting multiple technologies in one system
+- Awareness of scalability, deployment and maintainability
+
+### Responsible AI Use
+
+>**AI was used as a learning and development support tool for understanding concepts, debugging and documentation**
+---
+
+## Slide 3: Conclusion
+
+### From ETL to AI-Enabled Search
+
+```text
+ETL
+ ↓
+MongoDB
+ ↓
+Amazon S3
+ ↓
+Embeddings
+ ↓
+FAISS
+ ↓
+RAG
+ ↓
+AI-Assisted Results
+```
+
+### Next Priorities
+
+`Larger Dataset` • `Automated ETL` • `Docker` • `Persistent Vector Search` • `Improved UI`
+
+
 
