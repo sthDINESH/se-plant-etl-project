@@ -17,7 +17,6 @@ with open(
     encoding="utf-8"
 ) as file:
     species_details_with_embeddings = json.load(file)
-    
 
 # 1. Load a pretrained Sentence Transformer model
 model = SentenceTransformer(SBERT_MODEL)
@@ -31,7 +30,7 @@ embeddings = np.array([
 # Find the dimension of embeddings
 dimension = embeddings.shape[1]
 
-# Create an FAISS search index 
+# Create an FAISS search index
 index = faiss.IndexFlatL2(dimension)
 
 # Add embeddings into index to store them as vectors

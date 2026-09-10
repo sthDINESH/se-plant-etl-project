@@ -16,7 +16,12 @@ from env import (
 from mongo_db_driver import get_db, get_collection
 import api_requests as api
 from clean_data import clean_species_detail
-from transform_data import remove_fields, update_missing, fields_to_remove, unknown_detail_fields
+from transform_data import (
+    remove_fields,
+    update_missing,
+    fields_to_remove,
+    unknown_detail_fields
+)
 
 # Connect to MongoDB
 db = get_db(MONGODB_URI, "plants_101")

@@ -6,7 +6,6 @@ from clean_data import build_semantic_text
 
 from env import (
     S3_ETL_JSON_KEY,
-    S3_ETL_JSON_WITH_EMBEDDINGS_KEY,
     S3_BUCKET,
     AWS_PROFILE,
     OUTPUT_DIR,
