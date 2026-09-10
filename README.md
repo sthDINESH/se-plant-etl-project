@@ -259,22 +259,18 @@ The RAG component combines the semantic search system with a large language mode
 <br>
 
 ## Future Vision: Where We Would Take the Project Next
+<br>
 
 ### What Would We Do Differently Next Time?
 
 ### Main Improvements
 
-**Data**  
-Use a larger open dataset without restrictive API limits.
-
-**ETL**  
-Automate extraction, cleaning, transformation and loading.
-
-**Deployment**  
-Introduce Docker earlier for a consistent environment.
-
-**UI**  
-Improve the existing interface with better filtering and clearer AI-assisted results.
+| Area | Future Improvement |
+|---|---|
+| **Data** | Use a larger open dataset without restrictive API limits. |
+| **ETL** | Automate the extraction, cleaning, transformation and loading process. |
+| **Deployment** | Introduce Docker earlier to create a consistent and reproducible environment. |
+| **UI** | Improve the existing interface with better filtering and clearer AI-assisted results. |
 
 <br>
 
@@ -313,7 +309,7 @@ Improve the existing interface with better filtering and clearer AI-assisted res
 
 ### Conclusion
 
-### From ETL to AI-Enabled Search
+#### From ETL to AI-Enabled Search
 
 ```text
 ETL
