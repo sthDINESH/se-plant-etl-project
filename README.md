@@ -28,6 +28,10 @@ The concept of this project was to build a data pipeline that retrieves data fro
 
 <br>
 
+<img src="presentation/dataset.PNG" alt="Plant Data Pipeline Banner" >
+
+<br>
+
 ### Setup
 
 Create and activate a virtual environment:
