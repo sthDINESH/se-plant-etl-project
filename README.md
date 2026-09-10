@@ -28,7 +28,7 @@ The concept of this project was to build a data pipeline that retrieves data fro
 
 <br>
 
-<img src="presentation/dataset.PNG" alt="Plant Data Pipeline Banner" >
+<img src="presentation/dataset1.PNG" alt="Plant Data Pipeline Banner" >
 
 <br>
 
