@@ -97,7 +97,7 @@ The project implements a complete ETL pipeline to retrieve plant data from an ex
 
 <br>
 
-<img src="presentation/ETL-pipeline.png" alt="ETL pipeline" width="1350">
+<img src="presentation/ETL-pipeline.svg" alt="ETL pipeline" width="1350">
 
 <br>
 
@@ -174,7 +174,7 @@ The goal was to allow users to describe what they are looking for in natural lan
 
 <br>
 
-<img src="presentation/semantic-search.png" alt="Semantic search pipeline" width="1000">
+<img src="presentation/semantic-search.svg" alt="Semantic search pipeline" width="1000">
 
 <br>
 
@@ -228,7 +228,7 @@ The RAG component combines the semantic search system with a large language mode
 
 <br>
 
-<img src="presentation/RAG.png" alt="Semantic search pipeline" width="1000">
+<img src="presentation/RAG.svg" alt="Semantic search pipeline" width="1000">
 
 <br>
 
