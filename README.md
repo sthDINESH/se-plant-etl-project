@@ -152,6 +152,7 @@ The cleaned dataset is then stored in a `species_search` collection in MongoDB.
 
 This provides the processed dataset as a reusable input for the downstream semantic search and RAG components.
 
+<br>
 ### ETL Demo
 <br>
 
@@ -206,6 +207,8 @@ This separation provides the foundation for combining semantic similarity with t
 🌱 Natural-language user query is also converted into an embedding using the same model.<br>
 🌱 The query embedding can then be compared with the plant embeddings to identify the plants that are most semantically similar to what the user is looking for.
 
+<br>
+
 ### Semantic Search Demo
 <br>
 
@@ -239,6 +242,8 @@ The RAG component combines the semantic search system with a large language mode
 > - OpenAI and Anthropic also provide developer APIs, but their standard API usage is primarily **usage-based and paid**, with more limited free credits or trials.
 > - **Ollama** was considered as a local alternative. While it avoids API costs, it requires local hardware to run the model and can introduce additional performance and setup requirements.
 
+<br>
+
 ### RAG Search Demo(Terminal application)
 <br>
 
@@ -253,9 +258,9 @@ The RAG component combines the semantic search system with a large language mode
 
 <br>
 
-# Future Vision: Where We Would Take the Project Next
+## Future Vision: Where We Would Take the Project Next
 
-## What Would We Do Differently Next Time?
+### What Would We Do Differently Next Time?
 
 ### Main Improvements
 
@@ -271,36 +276,42 @@ Introduce Docker earlier for a consistent environment.
 **UI**  
 Improve the existing interface with better filtering and clearer AI-assisted results.
 
+<br>
+
 ### Why This Matters
 
-- More data improves testing of semantic search and RAG.
-- Automation reduces manual work and errors.
-- Docker improves setup and consistency.
-- UI improvements make results easier to use.
+🌱 More data improves testing of semantic search and RAG. <br>
+🌱 Automation reduces manual work and errors. <br>
+🌱 Docker improves setup and consistency. <br>
+🌱 UI improvements make results easier to use. <br>
 
 > **Key takeaway:** Make the project more scalable, automated and user-friendly.
 
 ---
 
-## Why Is This Strong for Employers?
+<br>
 
-### What We Worked Across
+### Why Is This Strong for Employers?
+
+#### What We Worked Across
 
 `Python` • `External APIs` • `JSON` • `MongoDB` • `ETL` • `Data Cleaning` • `Amazon S3` • `Sentence Transformers` • `Embeddings` • `FAISS` • `Semantic Search` • `RAG` • `UI`
 
-### What This Demonstrates
+#### What This Demonstrates
 
-- End-to-end problem solving
-- Data engineering and AI integration
-- Connecting multiple technologies in one system
-- Awareness of scalability, deployment and maintainability
+🌱 End-to-end problem solving <br>
+🌱 Data engineering and AI integration <br>
+🌱 Connecting multiple technologies in one system <br>
+🌱 Awareness of scalability, deployment and maintainability <br>
 
-### Responsible AI Use
+#### Responsible AI Use
 
 >**AI was used as a learning and development support tool for understanding concepts, debugging and documentation**
 ---
 
-## Conclusion
+<br>
+
+### Conclusion
 
 ### From ETL to AI-Enabled Search
 
