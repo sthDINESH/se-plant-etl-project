@@ -101,10 +101,6 @@ The project implements a complete ETL pipeline to retrieve plant data from an ex
 
 <br>
 
-The project implements a complete ETL pipeline to retrieve plant data from an external API, clean and transform the data, and load the resulting dataset into an AWS S3 bucket for downstream search and RAG applications.
-
-<br>
-
 ### API Endpoints
 
 The plant data was extracted from two Perenual API endpoints:
