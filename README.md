@@ -255,7 +255,7 @@ The RAG component combines the semantic search system with a large language mode
 
 # Future Vision: Where We Would Take the Project Next
 
-## Slide 1: What Would We Do Differently Next Time?
+## What Would We Do Differently Next Time?
 
 ### Main Improvements
 
@@ -282,7 +282,7 @@ Improve the existing interface with better filtering and clearer AI-assisted res
 
 ---
 
-## Slide 2: Why Is This Strong for Employers?
+## Why Is This Strong for Employers?
 
 ### What We Worked Across
 
@@ -300,7 +300,7 @@ Improve the existing interface with better filtering and clearer AI-assisted res
 >**AI was used as a learning and development support tool for understanding concepts, debugging and documentation**
 ---
 
-## Slide 3: Conclusion
+## Conclusion
 
 ### From ETL to AI-Enabled Search
 
